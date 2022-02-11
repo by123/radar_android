@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:clipChildren="false">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/welcome_bg"
+        android:scaleType="centerCrop" />
+    <!--控制拖动雷达盘时，背景图片透明度变化-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_radar_bg"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/welcome_bg"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/radar_content_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_radar_bg" />
+
+        <com.brotherhood.o2o.ui.widget.radar.RadarContentUI
+            android:id="@+id/radar_content_ui"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_three"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name" />
+
+            <com.brotherhood.o2o.ui.widget.radar.DirectLayout
+                android:id="@+id/layout_radar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:clipChildren="false"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/img_radar" />
+
+                <ImageView
+                    android:id="@+id/iv_scan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/img_radar_scan" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clipChildren="false">
+
+                    <ImageView
+                        android:id="@+id/img_center_bg"
+                        android:layout_width="@dimen/radar_head_bg"
+                        android:layout_height="@dimen/radar_head_bg"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/btn_radar_bg"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/img_center"
+                        android:layout_width="@dimen/radar_head"
+                        android:layout_height="@dimen/radar_head"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/selector_radar_center" />
+
+
+                    <LinearLayout
+                        android:id="@+id/layout_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/txt_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#ffffff"
+                            android:textSize="26sp" />
+
+                        <TextView
+                            android:id="@+id/txt_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#ffffff"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.brotherhood.o2o.ui.widget.radar.DirectLayout>
+
+            <com.brotherhood.o2o.ui.widget.radar.TorusView
+                android:id="@+id/torus_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/layout_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:clipChildren="false"
+                android:gravity="left|top" />
+        </com.brotherhood.o2o.ui.widget.radar.RadarContentUI>
+
+        <!--  <RelativeLayout
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+              <com.skynet.android.radar.ui.RadarFlashUI
+                  android:id="@+id/radar_flash_ui"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:background="@color/transparent"
+                  android:orientation="vertical"
+                  android:visibility="gone">
+
+                  <RelativeLayout
+                      android:id="@+id/layout_flash"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="#6f000000">
+
+                      <View
+                          android:layout_width="1px"
+                          android:layout_height="fill_parent"
+                          android:background="#66ffffff" />
+                  </RelativeLayout>
+              </com.skynet.android.radar.ui.RadarFlashUI>
+          </RelativeLayout>
+
+          <LinearLayout
+              android:id="@+id/layout_tip_net_error"
+              android:layout_width="match_parent"
+              android:layout_height="49dp"
+              android:background="#33000000"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="3dp"
+                  android:background="@drawable/ic_problem_radar"
+                  android:contentDescription="@string/app_name" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="6dp"
+                  android:text="@string/network_fail"
+                  android:textColor="#99ffffff"
+                  android:textSize="14sp" />
+          </LinearLayout>
+-->
+        <LinearLayout
+            android:id="@+id/layout_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_tip"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_renovate_up"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_activitycode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="15dp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_marginBottom="70dp"
+        android:gravity="center_horizontal"
+        android:text="试试这样滑雷达，能提高中奖几率"
+        android:textColor="@color/main_red"
+        android:textSize="16sp" />
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestureview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gestureStrokeType="multiple"
+        android:visibility="gone" />
+
+    <com.brotherhood.o2o.ui.widget.radar.CircleProgressView
+        android:id="@+id/circleprogressview"
+        android:layout_width="@dimen/radar_head_bg"
+        android:layout_height="@dimen/radar_head_bg"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+    <include
+        layout="@layout/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_radar_bottom_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/frag_explore.xml -->

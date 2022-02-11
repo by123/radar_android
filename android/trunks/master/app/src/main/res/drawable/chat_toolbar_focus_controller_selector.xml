@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/chat_f_controller_focused" android:state_focused="true"/>
+    <item android:drawable="@color/chat_f_controller_non_focused"/>
+
+</selector>

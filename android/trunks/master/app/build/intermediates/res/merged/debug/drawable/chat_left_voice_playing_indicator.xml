@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/chat_left_voice_playing1"
+        android:duration="250"/>
+    <item
+        android:drawable="@drawable/chat_left_voice_playing2"
+        android:duration="250"/>
+    <item
+        android:drawable="@drawable/chat_left_voice_playing3"
+        android:duration="250"/>
+
+</animation-list><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/drawable/chat_left_voice_playing_indicator.xml -->

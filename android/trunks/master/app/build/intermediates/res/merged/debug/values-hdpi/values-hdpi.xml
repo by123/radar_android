@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="code_margin_top">30dp</dimen>
+    <dimen name="code_qr_code_bg_margin_top">30dp</dimen>
+    <dimen name="code_qr_code_margin_top">40dp</dimen>
+    <dimen name="code_qr_code_width">80dp</dimen>
+    <dimen name="content_item_heigh">50dp</dimen>
+    <dimen name="content_item_paddingLeft">85dp</dimen>
+    <dimen name="content_item_top">15dp</dimen>
+    <dimen name="content_top">12dp</dimen>
+    <dimen name="friend_letterview_text_size">15px</dimen>
+    <dimen name="head_circular">87dp</dimen>
+    <dimen name="head_marginRight">1dp</dimen>
+    <dimen name="head_margin_top2">-5dp</dimen>
+    <dimen name="head_padding_value">1dp</dimen>
+    <dimen name="head_value">190dp</dimen>
+    <dimen name="head_value_layout">101dp</dimen>
+    <dimen name="head_value_layout_top">23dp</dimen>
+    <dimen name="height_1">350dp</dimen>
+    <dimen name="hobby_item_length">32dp</dimen>
+    <dimen name="hobby_item_min_height">40dp</dimen>
+    <dimen name="left_margin">2dp</dimen>
+    <dimen name="list_margin_bottom">-70dp</dimen>
+    <dimen name="list_text_size">16sp</dimen>
+    <dimen name="margin_top_content">1dp</dimen>
+    <dimen name="margin_top_id">8dp</dimen>
+    <dimen name="meet_card_view_hobby_item_length">28dp</dimen>
+    <dimen name="menu_width">270dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="newuser_step1_main_top">0dp</dimen>
+    <dimen name="newuser_step1_title_top">40dp</dimen>
+    <dimen name="radar_head">70dp</dimen>
+    <dimen name="radar_head_bg">72dp</dimen>
+    <dimen name="radar_up_height">-75dp</dimen>
+    <dimen name="register_1_Button_height">45dp</dimen>
+    <dimen name="register_1_Button_marginbottom">50dp</dimen>
+    <dimen name="register_1_Button_margintop">40dp</dimen>
+    <dimen name="register_1_Button_width">215dp</dimen>
+    <dimen name="register_1_EditText_TextSize">18sp</dimen>
+    <dimen name="register_1_EditText_margin">10dp</dimen>
+    <dimen name="register_1_EditText_width">160dp</dimen>
+    <dimen name="register_1_Edit_layout_magingtop">20dp</dimen>
+    <dimen name="register_1_layout_bottom_TextSize">14sp</dimen>
+    <dimen name="register_1_layout_bottom_padding_right">30dp</dimen>
+    <dimen name="register_1_layout_bottom_width">300dp</dimen>
+    <dimen name="register_1_padingto">113dp</dimen>
+    <dimen name="register_1_top_TextSize">23sp</dimen>
+    <dimen name="register_1_top_width">215dp</dimen>
+    <dimen name="result_height">100dp</dimen>
+    <dimen name="tv_name_length">150dp</dimen>
+    <!-- From: file:/D:/near_source_code/android/trunks/master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barSize">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>

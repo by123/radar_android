@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp" >
+
+    <Button
+        android:id="@+id/close_btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_right_close_btn_selector" />
+
+    <com.brotherhood.o2o.chat.ui.view.ChatTextView
+        android:id="@+id/chat_msg_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text="Hello World"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/bomb_burning_tv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/chat_msg_text"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bomb_burning_tv" >
+
+        <ImageView
+            android:id="@+id/chat_msg_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/chat_download_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

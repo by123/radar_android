@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drawee="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="49dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/img_product"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_order_success"
+                android:layout_width="fill_parent"
+                android:layout_height="49dp"
+                android:background="#e6f1db"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_activity_introduction_succeed_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="center"
+                    android:text="@string/product_activity_order_success"
+                    android:textColor="#67b801"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                >
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="17dp">
+
+                    <TextView
+                        android:id="@+id/txt_product_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="25sp" />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txt_introduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:alpha="0.5"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txt_goodname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="11dp"
+                    android:alpha="0.5"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/divide" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:background="@color/white"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/titlebar" />
+
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="bottom"
+        android:background="@color/text_red"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/layout_consume"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/half_transparent"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/dialog_consumecode" />
+
+    </LinearLayout>
+</FrameLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/act_ordersuccess.xml -->

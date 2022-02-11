@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="decoration" format="enum">
+        <enum name="pink" value="1" />
+        <enum name="red" value="2" />
+    </attr>
+
+    <attr name="shape" format="enum">
+        <enum name="square" value="1" />
+        <enum name="round" value="2" />
+    </attr>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="text" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="isProcessing" format="boolean" />
+        <attr name="decoration" />
+        <attr name="shape" />
+    </declare-styleable>
+    <declare-styleable name="DecorationButton">
+        <attr name="shape" />
+        <attr name="decoration" />
+    </declare-styleable>
+    <declare-styleable name="SearchBar">
+        <attr name="hint" format="string" />
+    </declare-styleable>
+</resources>

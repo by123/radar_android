@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomToolBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/abc_action_bar_default_height_material</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:navigationIcon">@drawable/selector_arrow_left</item>
+        <item name="navigationIcon">@drawable/selector_arrow_left</item>
+        <item name="android:title"></item>
+        <item name="title"></item>
+    </style>
+</resources>

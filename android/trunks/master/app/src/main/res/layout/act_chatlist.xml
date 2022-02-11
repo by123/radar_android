@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    tools:context="com.example.im_demo_with_chat_lib.MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/CustomToolBar">
+
+        <TextView
+            style="@style/CustomToolbarTitleView"
+            android:text="@string/title_chatlist" />
+    </android.support.v7.widget.Toolbar>
+
+    <com.brotherhood.o2o.ui.widget.deletelistview.DeleteListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:dividerHeight="1px"
+        android:divider="#07000000"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" />
+
+</LinearLayout>

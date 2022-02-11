@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@mipmap/img_default"
+        >
+        <ImageView
+            android:id="@+id/ivChooseItemPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            />
+        <CheckBox
+            android:id="@+id/cbChooseItemCheckbox"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            style="@style/CustomCheckboxTheme"
+            android:background="@null"
+            android:checked="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

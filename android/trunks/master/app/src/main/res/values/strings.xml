@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Near</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="httpclient_network_fail">网络连接失败，请重试！</string>
+    <string name="httpclient_fail">网络请求失败！</string>
+    <string name="httpclient_success">网络请求成功！</string>
+    <string name="httpclient_data_null">数据为空！</string>
+    <string name="httpclient_unknow_fail">未知错误！</string>
+    <string name="httpclient_upload_success">上报成功！</string>
+    <string name="httpclient_upload_fail">上报失败！</string>
+
+    <string name="bottom_category">分类</string>
+    <string name="bottom_explore">发现</string>
+    <string name="bottom_personal">我</string>
+
+
+    <string name="explorefragment_pulltorefresh">下拉刷新 </string>
+    <string name="explorefragment_relesetorefresh">释放加载 </string>
+    <string name="explorefragment_finding">正在寻找附近的服务...</string>
+    <string name="explorefragment_update">已更新 </string>
+
+    <string name="close">关闭</string>
+    <string name="web_power_by">网页由 %1$s 提供</string>
+    <string name="web_lbr_permition">是否允许当前网页获取位置信息?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="personalfragment_order">我的订单</string>
+    <string name="personalfragment_coupon">优惠券</string>
+    <string name="personalfragment_address">管理地址</string>
+    <string name="personalfragment_system_msg">系统消息</string>
+    <string name="personalfragment_invite_friend">邀请好友</string>
+    <string name="personalfragment_advice">意见反馈</string>
+    <string name="personalfragment_about">关于我们</string>
+    <string name="personalfragment_userinfo">账户信息</string>
+
+
+    <string name="aboutfragment_agreement">服务协议</string>
+    <string name="aboutfragment_update">检查更新</string>
+    <string name="aboutfragment_welcome">欢迎页</string>
+    <string name="aboutfragment_call">联系客服</string>
+    <string name="aboutfragment_grade">给我评分</string>
+
+    <string name="advicefragment_hint">给我们一些建议，让我们做得更好...</string>
+    <string name="userinfofragment_phone">手机号</string>
+    <string name="userinfofragment_gender">性别</string>
+    <string name="userinfofragment_nickname">昵称</string>
+    <string name="userinfofragment_avatar">头像</string>
+    <string name="userinfofragment_logout">退出登录</string>
+    <string name="userinfofragment_logout_tips">确定要退出此账号吗？</string>
+
+    <string name="systemmsgfragment_nomsg_tips">暂时还没有消息哦</string>
+
+    <string name="addlocation_title_address">收货地址</string>
+    <string name="addlocation_btn_add">添加新地址</string>
+    <string name="addlocation_btn_save">保存</string>
+    <string name="addlicaiton_txt_tips"> %1$s后惊喜将失效，请赶紧完成流程</string>
+
+    <string name="login_txt_wechat">微信</string>
+    <string name="login_btn_wechat">微信登录</string>
+    <string name="login_txt_qq">QQ</string>
+    <string name="login_btn_qq">QQ登录</string>
+    <string name="login_btn_others"><u>暂不登录，随便逛逛</u></string>
+    <string name="login_txt_others">其他登录方式</string>
+
+
+    <string name="perferctuserinfo_title">完善资料</string>
+    <string name="perferctuserinfo_tips">亲，首次进入需要完善您的资料哦</string>
+    <string name="perferctuserinfo_edit_hint">请输入昵称</string>
+
+    <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
+
+    <string name="dialog_takephoto">拍照</string>
+    <string name="dialog_gallery">从相册中选取</string>
+
+
+    <string name="dialog_gender_title">请选择性别</string>
+
+    <string name="title_chatlist">消息列表</string>
+    <string name="product_activity_rmb">¥ %1$s"</string>
+    <string name="product_activity_quota_total">总共名额: %1$s名</string>
+    <string name="product_activity_quota_remain">剩余名额: %1$s名</string>
+    <string name="product_activity_goodname">商家名称: %1$s</string>
+    <string name="product_activity_order">我要预约（¥%1$s）</string>
+    <string name="product_activity_delivery">我要配送</string>
+    <string name="product_activity_get">我要领取</string>
+    <string name="product_activity_order_success">恭喜，预约成功</string>
+    <string name="product_activity_confirm">商家确认</string>
+    <string name="product_activity_order_finish">预约成功</string>
+    <string name="product_activity_order_codenotnull">消费码不能为空!</string>
+    <string name="product_activity_consume_success">消码成功</string>
+    <string name="product_activity_consume_fail">消码失败</string>
+    <string name="product_activity_introduce_title">活动介绍</string>
+
+
+    <string name="title_compelete_surprise">惊喜完成</string>
+    <string name="confirm_location_success">恭喜，已成功提交到系统，请耐心等待</string>
+    <string name="confirm_location_address">配送地址</string>
+    <string name="confirm_location_product">配送物品</string>
+
+    <string name="surprise_time">时间：%1$s</string>
+
+    <string name="conpon_reward_item_expiretime">有效期至：%1$s</string>
+    <string name="conpon_reward_item_exchange">兑换方式：%1$s</string>
+    <string name="conpon_reward_null">当前没有优惠券</string>
+    <string name="item_reward_null">当前没有实物</string>
+
+
+
+    <string name="server_error">服务器异常</string>
+    <string name="please_login">请登录</string>
+    <string name="no_login">未登录</string>
+
+    <string name="updatephone_phone_null">手机号不能为空哦</string>
+    <string name="updatephone_verify_null">验证码不能为空哦</string>
+    <string name="updatephone_verify_success">发送验证码成功</string>
+    <string name="updatephone_verify_wait">%1$s秒后重新获取</string>
+    <string name="updatephone_get_verifycode">获取验证码</string>
+    <string name="updatephone_verifycode_error">验证码错误</string>
+    <string name="ordersuccess_used">惊喜已完成</string>
+
+
+</resources>

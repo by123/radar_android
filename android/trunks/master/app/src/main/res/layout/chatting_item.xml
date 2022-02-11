@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drawee="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/chat_top_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:padding="2dp"
+        android:textColor="@color/chat_timeline"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/chat_left_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/chat_left_avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:clickable="true"
+            android:contentDescription="@null"
+            drawee:placeholderImage="@drawable/ic_default_avatar"
+            drawee:roundAsCircle="true" />
+
+        <TextView
+            android:id="@+id/chat_left_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/chat_left_avatar"
+            android:layout_toRightOf="@id/chat_left_avatar"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="teaj"
+            android:textColor="#818181"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:id="@+id/chat_left_content_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chat_left_username"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/chat_left_avatar"
+            android:layout_toRightOf="@id/chat_left_avatar"
+            android:background="@drawable/ic_chat_other_bg"
+            android:gravity="center">
+
+            <com.brotherhood.o2o.chat.ui.ChatTextView
+                android:id="@+id/chat_left_msg_text"
+                style="@style/chat_content_date_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/chat_left_msg_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:maxHeight="160dip"
+                android:maxWidth="160dip" />
+
+            <View
+                android:id="@+id/chat_left_msg_pic_mask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/chat_left_msg_pic"
+                android:layout_alignEnd="@+id/chat_left_msg_pic"
+                android:layout_alignLeft="@+id/chat_left_msg_pic"
+                android:layout_alignRight="@+id/chat_left_msg_pic"
+                android:layout_alignStart="@+id/chat_left_msg_pic"
+                android:layout_alignTop="@+id/chat_left_msg_pic"
+                android:background="#5F000000" />
+
+            <ImageView
+                android:id="@+id/chat_left_voice_playing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chat_left_voice_playing_indicator" />
+
+            <TextView
+                android:id="@+id/chat_left_voice_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/chat_left_voice_playing"
+                android:layout_toRightOf="@id/chat_left_voice_playing"
+                android:text="2" />
+
+            <SurfaceView
+                android:id="@+id/chat_left_video_view"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chat_right_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="5dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/chat_right_avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@null"
+            drawee:placeholderImage="@drawable/ic_default_avatar"
+            drawee:roundAsCircle="true" />
+
+        <TextView
+            android:id="@+id/chat_right_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/chat_right_avatar"
+            android:layout_toStartOf="@id/chat_right_avatar"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="dsdsdf"
+            android:textColor="#818181"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:id="@+id/chat_right_content_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chat_right_username"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/chat_right_avatar"
+            android:layout_toStartOf="@id/chat_right_avatar"
+            android:background="@drawable/ic_chat_self_bg"
+            android:gravity="center">
+
+            <com.brotherhood.o2o.chat.ui.ChatTextView
+                android:id="@+id/chat_right_msg_text"
+                style="@style/chat_content_date_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/chat_right_msg_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:maxHeight="160dip"
+                android:maxWidth="160dip" />
+
+            <View
+                android:id="@+id/chat_right_msg_pic_mask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/chat_right_msg_pic"
+                android:layout_alignEnd="@+id/chat_right_msg_pic"
+                android:layout_alignLeft="@+id/chat_right_msg_pic"
+                android:layout_alignRight="@+id/chat_right_msg_pic"
+                android:layout_alignStart="@+id/chat_right_msg_pic"
+                android:layout_alignTop="@+id/chat_right_msg_pic"
+                android:background="#5F000000" />
+
+            <TextView
+                android:id="@+id/chat_right_voice_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <ImageView
+                android:id="@+id/chat_right_voice_playing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/chat_right_voice_duration"
+                android:layout_toRightOf="@id/chat_right_voice_duration"
+                android:src="@drawable/chat_right_voice_playing_indicator" />
+
+            <SurfaceView
+                android:id="@+id/chat_right_video_view"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/chat_right_send_progress"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/chat_right_content_layout"
+            android:layout_toStartOf="@id/chat_right_content_layout" />
+
+        <ImageButton
+            android:id="@+id/chat_right_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_toLeftOf="@id/chat_right_send_progress"
+            android:layout_toStartOf="@id/chat_right_send_progress"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/chat_resend_selector" />
+    </RelativeLayout>
+
+</LinearLayout>

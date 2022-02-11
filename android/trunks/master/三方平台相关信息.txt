@@ -1,0 +1,9 @@
+乐逗开发者平台:
+    游戏名称: o2o
+    游戏id: 10939
+    Release Key: 988aac7440194b606ba5
+    Release Secret: aa2ef24d5e2971534dce
+
+腾讯MTA服务:
+    Release Key: A8CPV115CZRH
+    Channel: osc

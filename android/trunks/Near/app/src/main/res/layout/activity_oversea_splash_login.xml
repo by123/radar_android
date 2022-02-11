@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:drawee="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivLoginBgI18n"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/bg_login_img_normal"
+        />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="101dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:src="@mipmap/logo_login_near_normal"
+        />
+
+    <Button
+        android:id="@+id/toDomestic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中国版"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/llLoginPrivacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/login_prompt"
+            android:textColor="@color/forty_percent_white"
+            android:textSize="13dp"
+            />
+
+        <TextView
+            android:id="@+id/tvRegisteredLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:clickable="true"
+            android:text="@string/login"
+            android:textColor="@color/sixty_percent_white"
+            android:textSize="13dp"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+<!-- style="@style/LoginBtnStyle"
+        android:layout_gravity="center"
+        android:background="@drawable/phone_login_btn_bg"-->
+  <!--  <LinearLayout
+        android:id="@+id/llLoginWithFacebook"
+        android:layout_below="@id/ivLogo"
+        style="@style/LoginBtnStyleI18N"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="267dp"
+        android:background="@drawable/facebook_login_btn_bg"
+        >
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:duplicateParentState="true"
+            android:src="@mipmap/ic_login_facebook_normal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:duplicateParentState="true"
+            android:text="@string/regist_btn_facebook"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/llEmailRegist"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginTop="337dp"
+        style="@style/LoginBtnStyleI18N"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/wechat_login_btn_bg">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:duplicateParentState="true"
+            android:src="@mipmap/ic_login_email_normal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:duplicateParentState="true"
+            android:text="@string/regist_btn_email"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+
+    <include layout="@layout/phone_login_view"/>
+</RelativeLayout>

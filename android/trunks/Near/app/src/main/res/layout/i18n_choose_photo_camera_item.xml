@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/llChooseItemCamera"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/choose_photo_camera_bg"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="22dp"
+            android:src="@mipmap/choose_photo_camera"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photograph"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/ivReport"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="43dp"
+        android:src="@mipmap/ic_user_tick_normal"/>
+
+
+    <TextView
+        android:id="@+id/tvReportFirstLine"
+        android:layout_below="@id/ivReport"
+        android:layout_marginTop="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/eighty_percent_black"
+        android:text="@string/report_success_first_line"/>
+
+    <!--<LinearLayout
+        android:id="@+id/llReportSecondLine"
+        android:layout_below="@id/tvReportFirstLine"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/report_title_color"
+            android:textSize="12sp"
+            android:text="@string/report_success_second_line1"/>
+        <TextView
+            android:id="@+id/tvNearUseRule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/near_use_rule"
+            android:text="@string/report_success_second_line2"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@id/llReportSecondLine"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/report_title_color"
+        android:text="@string/report_success_third_line"/>-->
+
+</LinearLayout>

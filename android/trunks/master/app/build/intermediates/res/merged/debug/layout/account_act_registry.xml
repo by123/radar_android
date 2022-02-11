@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/CustomToolBar">
+
+        <TextView
+            style="@style/CustomToolbarTitleView"
+            android:text="@string/account_title_registry" />
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="16dp"
+        android:background="#e9e9e9" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/account_ic_hint" />
+
+        <EditText
+            android:id="@+id/field_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@android:id/icon"
+            android:background="@android:color/transparent"
+            android:hint="请填写手机注册号码"
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:nextFocusDown="@+id/field_code"
+            android:textColor="#191919"
+            android:textColorHint="#7f7f7f"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e9e9e9" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/account_ic_hint" />
+
+        <com.brotherhood.o2o.ui.widget.ProgressButton
+            android:id="@+id/btn_step"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            app:decoration="pink"
+            app:isProcessing="false"
+            app:shape="square"
+            app:text="获取验证码"
+            app:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/field_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@id/btn_step"
+            android:layout_toRightOf="@android:id/icon"
+            android:background="@android:color/transparent"
+            android:hint="输入验证码"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:nextFocusDown="@+id/field_password"
+            android:textColor="#191919"
+            android:textColorHint="#7f7f7f"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e9e9e9" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/account_ic_hint" />
+
+        <EditText
+            android:id="@+id/field_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@android:id/icon"
+            android:background="@android:color/transparent"
+            android:hint="设置密码"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColor="#191919"
+            android:textColorHint="#7f7f7f"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/label_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@mipmap/account_ic_hint"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:text="密码错误"
+        android:textColor="#fb632e" />
+
+    <com.brotherhood.o2o.ui.widget.ProgressButton
+        android:id="@+id/btn_registry"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        app:isProcessing="false"
+        app:text="注册"
+        app:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="已有账号?"
+            android:textColor="#7c7c7c"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="72dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@android:id/text1"
+            android:background="@drawable/shape_button_round_pink_2"
+            android:text="登录"
+            android:textColor="#ec3767"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/account_act_registry.xml -->

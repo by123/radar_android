@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tvPriceLevelOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/near_main_orange_color"
+            android:textSize="@dimen/text_size_12_dp"
+            />
+
+        <TextView
+            android:id="@+id/tvPriceLevelTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:textColor="@color/near_main_orange_color"
+            android:textSize="@dimen/text_size_12_dp"
+            />
+
+        <TextView
+            android:id="@+id/tvPriceLevelThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/near_main_orange_color"
+            android:textSize="@dimen/text_size_12_dp"
+            android:layout_marginLeft="1dp"
+            />
+
+        <TextView
+            android:id="@+id/tvPriceLevelFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:textColor="@color/near_main_orange_color"
+            android:textSize="@dimen/text_size_12_dp"
+            />
+    </LinearLayout>
+</LinearLayout>

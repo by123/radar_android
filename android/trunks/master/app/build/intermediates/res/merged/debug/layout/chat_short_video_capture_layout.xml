@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <SurfaceView
+            android:id="@+id/chat_short_video_camera_surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/chat_short_video_capture_controller"
+            style="@style/chat_round_button"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/tips_press_to_capture_video"
+            android:textSize="20sp" />
+
+        <com.brotherhood.o2o.chat.ui.TimeIndicatorView
+            android:id="@+id/chat_short_video_time_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="3dp" />
+
+        <TextView
+            android:id="@+id/chat_short_video_capture_cancel"
+            style="@style/chat_round_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:gravity="center"
+            android:text="@string/chat_cancel"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/chat_short_video_capture_send"
+            style="@style/chat_round_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:text="@string/chat_send"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/chat_short_video_capture_layout.xml -->

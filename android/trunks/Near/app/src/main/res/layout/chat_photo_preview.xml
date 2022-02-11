@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:id="@+id/rl_content"
+    android:clickable="true" >
+
+    <ProgressBar
+        android:id="@+id/chat_pp_compress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <!--<pl.droidsonroids.gif.GifImageView-->
+        <!--android:id="@+id/chat_pp_image"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:contentDescription="@null" />-->
+    <ImageView
+        android:id="@+id/chat_pp_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:id="@+id/chat_pp_top"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@mipmap/chat_photo_preview_bottom"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/chat_pp_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@mipmap/chat_back_pressed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_pp_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/chat_photo_preview_bottom"
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+        <Button
+            android:id="@+id/chat_pp_cancel"
+            style="@style/chat_pp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/chat_pp_done"
+            style="@style/chat_pp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:text="@string/confirm" />
+    </LinearLayout>
+
+</RelativeLayout>

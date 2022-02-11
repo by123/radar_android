@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@mipmap/report_reason_checked"/>
+    <item android:state_pressed="true" android:drawable="@mipmap/report_reason_checked"/>
+    <item android:state_checked="true" android:drawable="@mipmap/report_reason_checked"/>
+    <item android:state_selected="true" android:drawable="@mipmap/report_reason_checked"/>
+    <item android:drawable="@mipmap/other_detail_chat"/><!--随便一张白色图片，在白色背景下看不出来就没事-->
+</selector>

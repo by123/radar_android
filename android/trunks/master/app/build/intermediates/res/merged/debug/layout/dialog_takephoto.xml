@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/divide" />
+
+    <Button
+        android:id="@+id/btn_takephoto"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:text="@string/dialog_takephoto"
+        android:textColor="@color/main_red"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/divide" />
+
+    <Button
+        android:id="@+id/btn_pickimg"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:text="@string/dialog_gallery"
+        android:textColor="@color/gray"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divide_view"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/divide" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:text="@string/cancel"
+        android:textColor="@color/gray"
+        android:textSize="18sp" />
+
+</LinearLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/dialog_takephoto.xml -->

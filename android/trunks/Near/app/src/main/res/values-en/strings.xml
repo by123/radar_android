@@ -1,0 +1,355 @@
+<resources>
+    <string name="app_name">Near</string>
+
+    <string name="connect_network_fail">Network failure, please try again！</string>
+    <string name="connect_network_timeout">Network unstable，connection failed！</string>
+    <string name="httpclient_fail">Connection failed！</string>
+    <string name="httpclient_success">Connection success！</string>
+    <string name="httpclient_data_null">No data！</string>
+    <string name="httpclient_unknow_fail">Unknown error！</string>
+    <string name="httpclient_upload_success">Profile reported！</string>
+    <string name="httpclient_upload_fail">Report failed！</string>
+    <string name="request_location_fail">Location access failed！</string>
+
+    <string name="bottom_category">Categories</string>
+    <string name="bottom_explore">Discover</string>
+    <string name="bottom_personal">Me</string>
+
+
+    <string name="explorefragment_pulltorefresh">Pull down to refresh </string>
+    <string name="explorefragment_relesetorefresh">Release to load more info </string>
+    <string name="explorefragment_finding">Searching for service nearby…</string>
+    <string name="explorefragment_update">Updated! </string>
+
+    <string name="close">Close</string>
+    <string name="web_power_by">Wepage is provided by %1$s </string>
+    <string name="web_lbr_permition">Do you allow current page to access location information?</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="personalfragment_order">My orders</string>
+    <string name="personalfragment_coupon">Coupon</string>
+    <string name="personalfragment_address">Edit address</string>
+    <string name="personalfragment_system_msg">System Notifications</string>
+    <string name="personalfragment_invite_friend">Invite friends</string>
+    <string name="personalfragment_advice">Feedback</string>
+    <string name="personalfragment_about">About us</string>
+    <string name="service_agreement">Terms of service and privacy</string>
+    <string name="slide_menu_myactivity">My events</string>
+    <string name="event_detail">Event details</string>
+    <string name="slide_menu_mycollect">My colletion</string>
+    <string name="personalfragment_userinfo">Account Information</string>
+
+
+    <string name="aboutfragment_agreement">Terms of service and privacy</string>
+    <string name="aboutfragment_update">Check update</string>
+    <string name="aboutfragment_welcome">Welcome page</string>
+    <string name="aboutfragment_call">Contact us</string>
+    <string name="aboutfragment_grade">Rate Near</string>
+
+    <string name="advicefragment_hint">Please send us feedback to make Near better…</string>
+    <string name="userinfofragment_phone">Phone number</string>
+    <string name="userinfofragment_gender">Gender</string>
+    <string name="userinfofragment_nickname">Username</string>
+    <string name="userinfofragment_avatar">Profile picture</string>
+    <string name="userinfofragment_logout">Log out</string>
+    <string name="userinfofragment_logout_tips">Are you sure you want to log out？</string>
+
+    <string name="systemmsgfragment_nomsg_tips">No messages yet</string>
+
+    <string name="addlocation_title_address">Address</string>
+    <string name="addlocation_btn_add">Add address</string>
+    <string name="addlocation_btn_save">Save</string>
+    <string name="addlicaiton_txt_tips"> Surprise will expire in %1$s, please complete your information quickly</string>
+
+    <string name="login_txt_wechat">Wechat</string>
+    <string name="login_btn_wechat">Wechat Login</string>
+    <string name="login_txt_qq">QQ</string>
+    <string name="login_btn_qq">QQ login</string>
+    <string name="login_btn_others"><u>Browse</u></string>
+    <string name="login_txt_others">Other login options</string>
+
+
+    <string name="perferctuserinfo_title">Complete profile</string>
+    <string name="perferctuserinfo_tips">Please complete your profile information</string>
+    <string name="perferctuserinfo_edit_hint">Please enter username</string>
+
+    <string name="sex_male">Male</string>
+    <string name="sex_female">Female</string>
+
+    <string name="dialog_takephoto">Take a photo</string>
+    <string name="dialog_gallery">Select from photo album</string>
+
+
+    <string name="dialog_gender_title">Please Choose Your Gender</string>
+
+    <string name="title_chatlist">Notifications</string>
+    <string name="product_activity_rmb">¥ %1$s"</string>
+    <string name="product_activity_quota_total">Total offers: %1$s</string>
+    <string name="product_activity_quota_remain">Remaining offers: %1$s名</string>
+    <string name="product_activity_goodname">Merchant name: %1$s</string>
+    <string name="product_activity_order">Reserve（¥%1$s）</string>
+    <string name="product_activity_delivery">Delivery</string>
+    <string name="product_activity_get">Redeem now</string>
+    <string name="product_activity_order_success">Congrats! Your reservation is completed</string>
+    <string name="product_activity_confirm">Merchant confirmation</string>
+    <string name="product_activity_order_finish">Reservation confirmed</string>
+    <string name="product_activity_order_codenotnull">Promo code cannot be left empty!</string>
+    <string name="product_activity_consume_success">Promo code used</string>
+    <string name="product_activity_consume_fail">Promo code failed</string>
+    <string name="product_activity_introduce_title">Event introduction</string>
+
+
+    <string name="title_compelete_surprise">Surprise completed</string>
+    <string name="confirm_location_success">Congrats! We have received your request, please wait.</string>
+    <string name="confirm_location_address">Shipping address</string>
+    <string name="confirm_location_product">Shipping item</string>
+
+    <string name="surprise_time">time：%1$s</string>
+
+    <string name="conpon_reward_item_expiretime">Expiration date：%1$s</string>
+    <string name="conpon_reward_item_exchange">Redeeming method：%1$s</string>
+    <string name="conpon_reward_null">No coupon available</string>
+    <string name="item_reward_null">No item available</string>
+
+
+    <string name="server_error">Server error</string>
+    <string name="please_login">Please log in</string>
+    <string name="no_login">You are not logged in</string>
+    <string name="login_title_text">Log in</string>
+    <string name="login_success">Login success</string>
+    <string name="register_success">Sign-up success</string>
+
+    <string name="updatephone_phone_null">Phone number cannot be left empty</string>
+    <string name="updatephone_verify_null">Verification code cannot be empty</string>
+    <string name="updatephone_verify_success">Verification code sent</string>
+    <string name="updatephone_verify_wait">Resend in %1$s</string>
+    <string name="updatephone_get_verifycode">Get verification code</string>
+    <string name="updatephone_verifycode_error">Wrong code</string>
+    <string name="ordersuccess_used">Surprise used</string>
+    <string name="require_location_failed">Location cannot be found</string>
+    <string name="login_btn_phone">Log in with phone number</string>
+    <string name="login_verifycode_notnull">Verification code cannot be empty</string>
+    <string name="title_activity_phone_login">PhoneLoginActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="login_phone_regular_error">Phone number is not valid</string>
+    <string name="slide_menu_friend">Friends</string>
+    <string name="slide_menu_visitor">Visits</string>
+    <string name="radar_getting_address">Retrieving location information…</string>
+    <!--<string name="radar_scan_result" formatted="false">%d people，%d events found in %s</string>-->
+    <string name="radar_scan_result" formatted="false">%s people found in %s</string>
+    <string name="radar_people_count">%d people</string>
+    <string name="radar_event_count">%d events</string>
+    <string name="radar_meter_text">%sm</string>
+    <string name="radar_killometer_text">%skm</string>
+    <string name="near_exit_msg">Click again to exit</string>
+    <string name="loading_error_text">loading failure</string>
+    <string name="retry_refresh">Please refresh</string>
+    <string name="not_any_data">No data found</string>
+    <string name="loading_text">loading…</string>
+    <string name="list_loading">loading…</string>
+    <string name="list_load_nomore">No more data</string>
+    <string name="list_load_more">Loading failed, please click to reload</string>
+    <string name="radar_event_item_supplier">Event holder:%s</string>
+    <string name="radar_event_item_place">Held at:%s</string>
+    <string name="please_login_again">Please log in again</string>
+    <string name="login_tip">By logging in, you agree to our terms of use and privacy</string>
+    <string name="login_privacy_policy">Terms of Use and Privacy</string>
+    <string name="login_input_phone_number">Please enter phone number</string>
+    <string name="login_input_verifycode">Please enter verification code</string>
+    <string name="fill_user_info">Create account</string>
+    <string name="person_finish">Complete</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="choose_btn_send">Send</string>
+    <string name="choose_photo_by_camera">Take a photo</string>
+    <string name="choose_check_sdcard_mounted">Please insert an SD card</string>
+    <string name="choose_not_check_any_image">No photo selected</string>
+    <string name="person_upload_real_headphoto">Please upload a picture with your face visible</string>
+    <string name="person_nickname_formaterror">Username cannot be more than 10 characters</string>
+    <string name="person_nickname_isempty">User name cannot be empty</string>
+    <string name="person_sex_isempty">Please choose your gender</string>
+    <string name="person_headfile_notexist">Profile picture does not exist</string>
+    <string name="choose_photo_notfound">Photo cannot be found, please choose again</string>
+    <string name="user_detail_live_place">Region</string>
+    <string name="user_detail_star_seat">Constellation</string>
+    <string name="user_detail_nearest_visitor">Visits</string>
+    <string name="other_user_detail_eat">Save(%d)</string>
+    <string name="user_detail_visitor_count">%d people visited you</string>
+    <string name="user_detail_likes_count">%d people liked you</string>
+    <string name="user_detail_no_visitor">You don’t have any visitor yet，make the first move!~</string>
+    <string name="other_user_no_collection">There\'s no collection yet!</string>
+    <string name="user_detail_title">Details</string>
+    <string name="user_set_title">Edit profile</string>
+    <string name="user_set_birthday">Date of birth</string>
+    <string name="user_set_location">Region</string>
+    <string name="user_set_signature">About me</string>
+    <string name="modify_text_not_null">Content cannot be left alone</string>
+    <string name="person_upload_real_photo">Please upload a photo with your face visible</string>
+    <string name="delete_friend">Delete friend</string>
+    <string name="other_detail_report">Report</string>
+    <string name="other_detail_like">Like(%d)</string>
+    <string name="other_detail_like_zero">Like</string>
+    <string name="other_detail_chat">Chat</string>
+    <string name="other_detail_addfriend">Add friend</string>
+    <string name="report_title">User report</string>
+    <string name="report_success">Profile reported</string>
+    <string name="report_failed">Report failed</string>
+
+    <string name="report_reason_sexy">Pornographic or inappropriate content</string>
+    <string name="report_reason_ad">Commercial content</string>
+    <string name="report_reason_abuse">Insult or harassment</string>
+    <string name="report_reason_politically_sensitive">Political content</string>
+    <string name="report_reason_cheat">Spam or fraud</string>
+    <string name="report_reason_illegal">Illegal behavior</string>
+
+
+    <string-array name="constellation">
+        <item>Aquarius</item>
+        <item>Pisces</item>
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+    </string-array>
+    <!--PickerView  start-->
+    <string name="pickerview_cancel">Cancel</string>
+    <string name="pickerview_submit">OK</string>
+    <string name="pickerview_year"></string>
+    <string name="pickerview_month"></string>
+    <string name="pickerview_day"></string>
+    <string name="pickerview_hours">Hour</string>
+    <string name="pickerview_minutes">Minute</string>
+    <string name="pickerview_seconds">Second</string>
+    <string name="other_detail_location_title">Region</string>
+    <string name="report_title_text">Please tell us why you want to report this profile</string>
+    <string name="report_reason_is_empty">Please choose a reason of report</string>
+    <string name="like_success">Liked!</string>
+    <string name="like_failed">Something went wrong</string>
+    <!--PickerView end-->
+
+    <string name="my_message">Messages</string>
+    <string name="my_friend">Friends</string>
+    <string name="new_friend">New friends</string>
+    <string name="my_group_chat">Groups</string>
+    <string name="message">Messages</string>
+    <string name="message_delete">Delete</string>
+    <string name="my_friends_count">%d friends</string>
+    <string name="search">Search</string>
+    <string name="put_friend_name_hint">Please enter name</string>
+    <string name="is_friend">Already a friend</string>
+    <string name="frien_validate">Friend request</string>
+    <string name="send">Send</string>
+    <string name="group_chat_info">Message details(%d)</string>
+    <string name="add_friend_send_msg_hine">You are not friends yet, make the first move!</string>
+    <string name="add_friend_send_msg_temp">Hi, I’m %s,nice to meet you!</string>
+    <string name="other_detail_has_liked">Liked already</string>
+
+    <!-- chat -->
+
+    <string name="tips_move_up_to_cancel_voice">Scroll upward to cancel voice message</string>
+    <string name="tips_untouch_to_cancel_voice">Release to cancel voice message</string>
+    <string name="tips_press_to_speak">Press to start recording</string>
+    <string name="tips_untouch_to_cancel">Release to cancel recording</string>
+    <string name="tips_untouch_to_finish">Release to end recording</string>
+    <string name="tips_recorded_voice_too_short">Recording time is too short</string>
+    <string name="chat_feature_image">Photo</string>
+    <string name="chat_feature_camera_photo">Camera</string>
+    <string name="chat_upload_media_io_error">Connection error，please try again</string>
+    <string name="chat_upload_media_internal_error">Server error，please try again</string>
+    <string name="chat_img_not_found_or_ot">Photo expired or had been deleted</string>
+    <string name="chat_can_not_show_img">Photo cannot be shown</string>
+    <string name="chat_download_img_io">Photo downloading failure, please check your connection</string>
+    <string name="chat_download_img_data_error">Photo cannot be loaded, please try again</string>
+    <string name="time_unit_second">Second</string>
+    <string name="chat_exit">Exit</string>
+    <string name="chat_record_audio_error_no_sdcard">Voice recording failed，no memory card detected</string>
+    <string name="chat_record_audio_error_no_permission">Voice recording failed，probably because Near has no permit</string>
+    <string name="chat_send">Send</string>
+
+    <string name="logout_tip_content">Your account has been logged in at other devices, please click “OK” to exit and login again.</string>
+    <string name="chat_tip_accepted_friend_self" formatted="false">You have accepted  %s ’s friend request，start chatting now!</string>
+    <string name="chat_tip_accepted_friend_other" formatted="false">%s accepted your friend request, start chatting now!</string>
+    <string name="chat_tip_quit_group">You have exited group</string>
+    <string name="chat_tip_change_group_name">You changed group name %s</string>
+    <string name="add_friend_send_verify_suc">Friend request sent</string>
+    <string name="add_friend_send_verify_fail">Friend request failed</string>
+    <string name="put_add_friend_send_verify">Please say something to your new friend</string>
+    <string name="new_friends_btn_agree">Accept</string>
+    <string name="new_friends_added">Friend added</string>
+    <string name="system_msg">System notifications</string>
+    <string name="title_activity_google_map">GoogleMapActivity</string>
+    <string name="not_find_friend" formatted="false">\"%s\" cannot be found</string>
+    <string name="loading">loading……</string>
+    <string name="token_expired">Token expired,IM login failed</string>
+    <string name="chat_tip_we_are_already_friend">We are now friends</string>
+    <!-- chat group-->
+    <string name="chat_tip_other_change_group_name" formatted="false">%s changed group name to %s</string>
+    <string name="chat_tip_somebody_quit_group" formatted="false">%s left group</string>
+    <string name="chat_tip_kickout_group_by_sb" formatted="false">You are removed from the group by %s</string>
+    <string name="chat_tip_sb_kickout_sb" formatted="false">%s removed %s from this group</string>
+    <string name="chat_tip_invited_by_sb" formatted="false">You were invited to the group by %s</string>
+    <string name="chat_tip_invited_by_sb_and_others" formatted="false">You are invited by %s to the group, %s also joined</string>
+    <string name="chat_tip_sb_invite_sb" formatted="false">%s invited %s to the group</string>
+
+    <!-- group  -->
+    <string name="group_creat_time">Started at</string>
+    <string name="group_delete_and_quit">Delete and exit group</string>
+    <string name="group_name">Group name</string>
+    <string name="show_group_user_name">Show group members’ names</string>
+    <string name="group_name_save">Save</string>
+    <string name="put_group_name">Please enter group name</string>
+    <string name="put_group_name_suc">Revision successful</string>
+    <string name="chat_notify">You have a message</string>
+    <string name="empty_group_chat">Delete message history</string>
+    <string name="group_delete_and_quit_suc">You have successfully left the group</string>
+    <string name="group_chat_empty_suc">Message history deleted!</string>
+    <string name="my_collect">My collection</string>
+    <string name="cancel_collect_success"></string>
+    <string name="no_collect">You haven’t saved anything yet!</string>
+    <string name="latest_msg_image">[photo]</string>
+    <string name="latest_msg_voice">[voice message]</string>
+    <string name="no_group">No groups yet, create your own group now!</string>
+    <string name="put_user_name_search">Please enter a name to search</string>
+    <string name="delete_friend_suc">Friend deleted sucessfully!</string>
+    <string name="add_friend_suc">Friend added successfully!</string>
+    <string name="logout_tip">Are you sure you want to leave? </string>
+    <string name="load_error_text">Oops, loading failed</string>
+    <string name="try_to_refresh">Please refresh</string>
+
+    <string name="app_crash">Near has crashed…</string>
+    <string name="new_friend_empty">No friend requests yet. </string>
+    <string name="my_friend_empty">No friends yet, make the first move!</string>
+    <string name="remove_group_chat">Delete group message</string>
+    <string name="load_error">Oops, loading failed</string>
+    <string name="load_nothing">No data </string>
+
+    <!--
+    顺序改变：
+<string name="radar_scan_result" formatted="false">在%s内发现%d人</string>
+<string name="radar_scan_result" formatted="false">在%s内发现%d人，%d活动</string>
+<string name="not_find_friend" formatted="false">找不到\"%s\"哦</string>
+<string name="addlicaiton_txt_tips"> %1$s后惊喜将失效，请赶紧完成流程</string>
+<string name="web_power_by">Wepage is provided by %1$s </string>
+-->
+
+    <string name="nickname_not_allow_emoji">No emoji allowed here</string>
+    <string name="about_me_not_allow_emoji">No emoji allowed here</string>
+    <string name="group_name_not_allow_emoji">No emoji allowed here</string>
+    <string name="friend_name_not_allow_emoji">No emoji allowed here</string>
+
+    <string name="report_success_first_line">User is reported, we’ll look into it.</string>
+    <string name="phone_number_wrong">The length of phone number is not correct</string>
+    <string name="select_photo">Choose a photo</string>
+    <string name="unknow_location_error">Unknown error</string>
+    <string name="get_verify_code">Please enter verification code</string>
+
+    <string name="no_visitor">No visitors yet, make the first move!</string>
+    <string name="not_support_gif_yet">Not support gif image yet...</string>
+    <string name="version">version</string>
+</resources>

@@ -1,0 +1,3 @@
+
+ÃüÁîĞĞÉú³Ékeystore
+keytool -genkey -v -keystore D:\test_key\idreamsky_googlemap.keystore -alias idreamsky_googlemap.keystore -keyalg RSA -keysize 2066 -validity 10000

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="decoration" format="enum">
+        <enum name="pink" value="1" />
+        <enum name="red" value="2" />
+    </attr>
+
+    <attr name="shape" format="enum">
+        <enum name="square" value="1" />
+        <enum name="round" value="2" />
+    </attr>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="text" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="isProcessing" format="boolean" />
+        <attr name="decoration" />
+        <attr name="shape" />
+    </declare-styleable>
+    <declare-styleable name="DecorationButton">
+        <attr name="shape" />
+        <attr name="decoration" />
+    </declare-styleable>
+    <declare-styleable name="SearchBar">
+        <attr name="hint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="TextColor" format="color" />
+        <attr name="TextSize" format="dimension" />
+        <attr name="max" format="integer" />
+        <attr name="textIsDisplayable" format="boolean" />
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="SpringIndicator">
+
+        <!--tab text color -->
+        <attr name="siTextColor" format="reference" />
+
+        <!--tab text color which is selected-->
+        <attr name="siSelectedTextColor" format="reference" />
+
+        <!--tab item bg -->
+        <attr name="siTextBg" format="reference" />
+
+        <!--tab text size-->
+        <attr name="siTextSize" format="dimension" />
+
+        <!--indicator bg color-->
+        <attr name="siIndicatorColor" format="reference" />
+
+        <!--indicator bg colors. should equals your titles count-->
+        <attr name="siIndicatorColors" format="reference" />
+
+        <!--max indicator radius-->
+        <attr name="siRadiusMax" format="dimension" />
+
+        <!--min indicator radius when moving-->
+        <attr name="siRadiusMin" format="dimension" />
+
+    </declare-styleable>
+</resources>
+

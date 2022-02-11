@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:scrollbarThumbVertical="@color/fifty_percent_black"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarSize="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/serviceAgreement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14sp"
+            android:textColor="@color/eighty_percent_black"
+            android:layout_margin="10dp"
+            android:text=""/>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="chat_round_button_text">@drawable/chat_video_capture_tc_selector</drawable>
+    <drawable name="chat_round_button_bg">@drawable/chat_video_capture_button_selector</drawable>
+
+</resources>

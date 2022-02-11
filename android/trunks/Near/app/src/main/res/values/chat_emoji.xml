@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="chat_emoji_names">
+
+        <!-- 0101 -->
+        <item>emoji_1f603</item>
+        <item>emoji_1f60d</item>
+        <item>emoji_1f612</item>
+        <item>emoji_1f633</item>
+        <item>emoji_1f601</item>
+        <item>emoji_1f618</item>
+
+        <item>emoji_1f609</item>
+        <item>emoji_1f620</item>
+        <item>emoji_1f61e</item>
+        <item>emoji_1f625</item>
+        <item>emoji_1f62d</item>
+        <item>emoji_1f623</item>
+
+        <item>emoji_1f621</item>
+        <item>emoji_1f623</item>
+        <item>emoji_1f614</item>
+        <item>emoji_1f604</item>
+        <item>emoji_1f637</item>
+        <item>chat_emo_delete</item>
+        <!--   -->
+        <item>emoji_1f619</item>
+        <item>emoji_1f613</item>
+        <item>emoji_1f602</item>
+        <item>emoji_1f60a</item>
+        <item>emoji_1f622</item>
+        <item>emoji_1f61c</item>
+
+        <item>emoji_1f628</item>
+        <item>emoji_1f630</item>
+        <item>emoji_1f632</item>
+        <item>emoji_1f60f</item>
+        <item>emoji_1f631</item>
+        <item>emoji_1f62a</item>
+
+        <item>emoji_1f616</item>
+        <item>emoji_1f60c</item>
+        <item>emoji_1f608</item>
+        <item>emoji_1f47b</item>
+        <item>emoji_1f385</item>
+        <item>chat_emo_delete</item>
+        <!--   -->
+        <item>emoji_1f467</item>
+        <item>emoji_1f466</item>
+        <item>emoji_1f469</item>
+        <item>emoji_1f468</item>
+        <item>emoji_1f436</item>
+        <item>emoji_1f431</item>
+
+        <item>emoji_1f44d</item>
+        <item>emoji_1f44e</item>
+        <item>emoji_1f44a</item>
+        <item>emoji_270a</item>
+        <item>emoji_1f4aa</item>
+        <item>emoji_1f44f</item>
+
+        <item>emoji_1f448</item>
+        <item>emoji_1f446</item>
+        <item>emoji_1f449</item>
+        <item>emoji_1f447</item>
+        <item>emoji_1f44c</item>
+        <item>chat_emo_delete</item>
+        <!--   -->
+        <item>emoji_2764</item>
+        <item>emoji_1f494</item>
+        <item>emoji_1f64f</item>
+        <item>emoji_2600</item>
+        <item>emoji_1f319</item>
+        <item>emoji_1f31f</item>
+
+        <item>emoji_26a1</item>
+        <item>emoji_2601</item>
+        <item>emoji_2614</item>
+        <item>emoji_1f341</item>
+        <item>emoji_1f33b</item>
+        <item>emoji_1f343</item>
+
+        <item>emoji_1f457</item>
+        <item>emoji_1f380</item>
+        <item>emoji_1f444</item>
+        <item>emoji_1f339</item>
+        <item>emoji_2615</item>
+        <item>chat_emo_delete</item>
+
+        <item>emoji_1f382</item>
+        <item>emoji_1f55a</item>
+        <item>emoji_1f37a</item>
+        <item>emoji_1f50d</item>
+        <item>emoji_1f4f1</item>
+        <item>emoji_1f3e0</item>
+
+        <item>emoji_1f697</item>
+        <item>emoji_1f381</item>
+        <item>emoji_26bd</item>
+        <item>emoji_1f4a3</item>
+        <item>emoji_1f48e</item>
+        <item>chat_emo_delete</item>
+
+    </string-array>
+    <string-array name="chat_emoji_desc">
+        <!-- 0101 -->
+        <item>:smiley:</item>
+        <item>:heart_eyes:</item>
+        <item>:unamused:</item>
+        <item>:flushed:</item>
+        <item>:grin:</item>
+        <item>:kissing_heart:</item>
+
+        <item>:wink:</item>
+        <item>:angry:</item>
+        <item>:disappointed:</item>
+        <item>:disappointed_relieved:</item>
+        <item>:sob:</item>
+        <item>:persevere:</item>
+
+        <item>:rage:</item>
+        <item>:persevere:</item>
+        <item>:pensive:</item>
+        <item>:smile:</item>
+        <item>:mask:</item>
+        <item>[DEL]</item>
+        <!--   -->
+        <item>:kissing_smiling_eyes:</item>
+        <item>:sweat:</item>
+        <item>:joy:</item>
+        <item>:blush:</item>
+        <item>:cry:</item>
+        <item>:stuck_out_tongue_winking_eye:</item>
+
+        <item>:fearful:</item>
+        <item>:cold_sweat:</item>
+        <item>:astonished:</item>
+        <item>:smirk:</item>
+        <item>:scream:</item>
+        <item>:sleepy:</item>
+
+        <item>:confounded:</item>
+        <item>:relieved:</item>
+        <item>:smiling_imp:</item>
+        <item>:ghost:</item>
+        <item>:santa:</item>
+        <item>[DEL]</item>
+        <!--   -->
+        <item>:girl:</item>
+        <item>:boy:</item>
+        <item>:woman:</item>
+        <item>:man:</item>
+        <item>:dog:</item>
+        <item>:cat:</item>
+
+        <item>:thumbsup:</item>
+        <item>:-1:</item>
+        <item>:facepunch:</item>
+        <item>:fist:</item>
+        <item>:muscle:</item>
+        <item>:clap:</item>
+
+        <item>:point_left:</item>
+        <item>:point_up_2:</item>
+        <item>:point_right:</item>
+        <item>:point_down:</item>
+        <item>:ok_hand:</item>
+        <item>[DEL]</item>
+        <!--   -->
+        <item>:heart:</item>
+        <item>:broken_heart:</item>
+        <item>:pray:</item>
+        <item>:sunny:</item>
+        <item>:crescent_moon:</item>
+        <item>:star2:</item>
+
+        <item>:zap:</item>
+        <item>:cloud:</item>
+        <item>:umbrella:</item>
+        <item>:maple_leaf:</item>
+        <item>:sunflower:</item>
+        <item>:leaves:</item>
+
+        <item>:dress:</item>
+        <item>:ribbon:</item>
+        <item>:lips:</item>
+        <item>:rose:</item>
+        <item>:coffee:</item>
+        <item>[DEL]</item>
+
+        <item>:birthday:</item>
+        <item>:clock11:</item>
+        <item>:beer:</item>
+        <item>:mag:</item>
+        <item>:iphone:</item>
+        <item>:house:</item>
+
+        <item>:red_car:</item>
+        <item>:gift:</item>
+        <item>:soccer:</item>
+        <item>:bomb:</item>
+        <item>:gem:</item>
+        <item>[DEL]</item>
+    </string-array>
+
+</resources>

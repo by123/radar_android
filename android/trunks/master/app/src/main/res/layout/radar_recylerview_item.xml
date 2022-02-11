@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:drawee="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:background="@drawable/shape_card_bg">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_head"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        drawee:roundTopLeft="true"
+        drawee:roundTopRight="true"
+        drawee:roundBottomLeft="false"
+        drawee:roundBottomRight="false"
+        drawee:roundedCornerRadius="4dp"
+        android:scaleType="centerCrop"
+         />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:layout_below="@+id/img_head"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txt_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.5km"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_name"
+        android:textColor="@color/black"/>
+</RelativeLayout>

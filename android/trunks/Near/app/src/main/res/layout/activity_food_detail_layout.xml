@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scroll="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.brotherhood.o2o.lib.multiStateView.MultiStateView
+        android:id="@id/stateView"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyView="@layout/empty_view"
+        app:errorView="@layout/error_view"
+        app:loadingView="@layout/loading_view_grey"
+        app:viewState="loading">
+
+        <com.brotherhood.o2o.ui.widget.nearby.ObservableListView
+            android:id="@+id/observerListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fastScrollEnabled="false"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            scroll:headerHeight="@dimen/common_titlebar_height"
+            />
+    </com.brotherhood.o2o.lib.multiStateView.MultiStateView>
+
+    <include layout="@layout/actionbar_food_detai_white_view"/>
+</RelativeLayout>

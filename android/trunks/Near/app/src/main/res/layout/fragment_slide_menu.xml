@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="280dp"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/near_slide_menu_color"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rlSlideMenuUser"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        >
+        <ImageView
+            android:id="@+id/ivSlideMenuUser"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_msg_default"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:ellipsize="end"
+            android:id="@+id/tvSlideMenuName"
+            android:singleLine="true"
+            android:layout_below="@id/ivSlideMenuUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/text_press_color"
+        >
+        <View
+            android:id="@+id/viSlideMenuVDivide"
+            android:layout_width="1px"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:alpha="0.05"
+            android:layout_centerInParent="true"
+            />
+        <LinearLayout
+            android:id="@+id/llSlideMenuFriend"
+            android:layout_toLeftOf="@id/viSlideMenuVDivide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/tvSlideMenuFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16sp"
+                android:textColor="@color/slide_menu_orange_color"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/slide_menu_friend"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:alpha="0.5"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llSlideMenuVisitor"
+            android:layout_toRightOf="@id/viSlideMenuVDivide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_toLeftOf="@id/viSlideMenuVDivide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/tvSlideMenuVisitor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="16sp"
+                    android:textColor="@color/slide_menu_orange_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slide_menu_visitor"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/white"
+                    android:alpha="0.5"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+   <!-- <RelativeLayout
+        android:id="@+id/rlSlideMenuActive"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <ImageView
+            android:id="@+id/ivSlideMenuActive"
+            style="@style/SlideMenuImageViewStyle"
+            android:src="@mipmap/slide_menu_myevents" />
+
+        <TextView
+            android:id="@+id/tvSlideMenuActiveTitle"
+            android:layout_toRightOf="@id/ivSlideMenuActive"
+            android:text="@string/slide_menu_myactivity"
+            style="@style/SlideMenuTextViewStyle"
+            />
+        <View
+            android:layout_alignLeft="@id/tvSlideMenuActiveTitle"
+            style="@style/SlideMenuHorizontalDivideStyle"
+            />
+
+        &lt;!&ndash;<TextView
+            android:id="@+id/tvSlideMenuActiveCount"
+            android:text="26"
+            style="@style/SlideMenuCountStyle"/>&ndash;&gt;
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/rlSlideMenuCollect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+
+        <ImageView
+            android:id="@android:id/icon"
+            style="@style/SlideMenuImageViewStyle"
+            android:src="@mipmap/slide_menu_mycollect" />
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_toRightOf="@android:id/icon"
+            android:text="@string/slide_menu_mycollect"
+            style="@style/SlideMenuTextViewStyle"
+            />
+
+        <View
+            android:layout_alignLeft="@android:id/text1"
+            style="@style/SlideMenuHorizontalDivideStyle"
+            android:layout_marginBottom="1px"
+            />
+
+        <!--<TextView
+            android:id="@+id/tvSlideMenuCollectCount"
+            android:text="89"
+            style="@style/SlideMenuCountStyle" />-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlSlideMenuAbout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+
+        <ImageView
+            android:id="@android:id/icon"
+            style="@style/SlideMenuImageViewStyle"
+            android:src="@mipmap/slide_menu_aboutus" />
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_toRightOf="@android:id/icon"
+            android:text="@string/personalfragment_about"
+            style="@style/SlideMenuTextViewStyle"
+            />
+
+        <ImageView
+            android:id="@+id/ivSlideMenuAboutPoint"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_alignTop="@android:id/text1"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@android:id/text1"
+            android:visibility="gone"
+            android:background="@color/main_red"
+            />
+
+        <View
+            style="@style/SlideMenuHorizontalDivideStyle"
+            />
+    </RelativeLayout>
+</LinearLayout>

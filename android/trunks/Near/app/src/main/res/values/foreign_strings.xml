@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="foreign_food_vote">%s\tvotes</string>
+    <string name="near_by_food">Food nearby</string>
+    <string name="near_by_search_hint">I am looking for..</string>
+    <string name="near_by_search_text">search</string>
+    <string name="search_word_empty">I am looking for…</string>
+    <string name="food_list_empty">There’s nothing nearby,try somewhere else</string>
+    <string name="search_food_wordempty_tip">Enter keywords to search</string>
+    <string name="search_keyword_history">Search History</string>
+    <string name="search_keyword_remove">Remove searches</string>
+    <string name="search_keyword_result_empty">No relevant content for current search</string>
+    <string name="food_detail_call">Call</string>
+    <string name="food_detail_visit">Visit</string>
+    <string name="food_detail_collect">Save</string>
+    <string name="food_detail_today">Today：</string>
+    <string name="food_detail_location">Location</string>
+    <string name="food_detail_maptext">Google Maps</string>
+    <string name="food_detail_ubertext">Uber</string>
+    <string name="food_detail_menutext">Menu</string>
+    <string name="food_detail_viewmenu">View Menu</string>
+    <string name="food_detail_reviews">Reviews</string>
+    <string name="food_detail_open">Open now</string>
+    <string name="food_detail_close">Closed</string>
+    
+    <string name="facebook_app_id">751729981624039</string>
+    <string name="email_error">Please enter a valid email</string>
+    <string name="choose_gender">Please choose your gender</string>
+    <string name="choose_picture">Please select a picture</string>
+    <string name="password_toast">The length of password should not be less than 6 characters</string>
+    <string name="username_toast">The length of username should be less than 20 , and can not be empty</string>
+    <string name="add_photo">Please add a photo</string>
+    <string name="photograph">Photograph</string>
+    <string name="food_detail_gmap_useness">Unable to use Google Maps</string>
+    <string name="food_detail_no_comment">No comment</string>
+    <string name="food_detail_location_empty">Location cannot be accessed</string>
+    <string name="food_detail_destlocation_empty">Targeted location cannot be found</string>
+    <string name="google_map_title">Map</string>
+    <string name="collect_success">Saved!</string>
+    <string name="call_phone">Call</string>
+    <string name="cancel_call">Cancel</string>
+    <string name="head_photo_not_exist">The picture does not exist</string>
+
+    <string name="login_prompt">Already have an account?</string>
+    <string name="login">Log in</string>
+    <string name="regist_btn_facebook">Sign up with Facebook</string>
+    <string name="regist_btn_email">Sign up with Email</string>
+    <string name="login_btn_facebook">Log in with Facebook</string>
+    <string name="create_male">Male</string>
+    <string name="create_female">Female</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="complete">Complete</string>
+    <string name="bottom_tips">Don\'t worry, we won\'t post without your permission</string>
+    <string name="forget_pd_tips_1">We will send you an email with instructions</string>
+    <string name="forget_pd_tips_2">to reset your password</string>
+    <string name="send_email">Send</string>
+    <string name="select_image">Select image</string>
+    <string name="or">or</string>
+
+    <!--new -->
+    <string name="create_account">Create account</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login_with_email">Login with email</string>
+    <string name="creating_account">creating...</string>
+    <string name="create_success_login">Sign-up successful</string>
+    <string name="do_not_empty">Account or password should not empty</string>
+    <string name="confirm_btn">Confirm</string>
+
+    <string name="email_key_or_password_error">Your email or password is incorrect</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:drawee="http://schemas.android.com/apk/res-auto"
+    android:alpha="0.85"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/titlebar" />
+
+
+    <TextView
+        android:id="@+id/txt_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/perfert_userinfo_tips_bg"
+        android:gravity="center"
+        android:text="@string/perferctuserinfo_tips"
+        android:textColor="@color/white" />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <com.brotherhood.o2o.ui.widget.AnimCircleView
+            android:id="@+id/circleview1"
+            android:layout_width="100dp"
+            android:layout_margin="40dp"
+            android:layout_height="100dp" />
+
+
+        <com.brotherhood.o2o.ui.widget.AnimCircleView
+            android:id="@+id/circleview2"
+            android:layout_width="100dp"
+            android:layout_margin="40dp"
+            android:layout_height="100dp" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/img_takephoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="40dp"
+            drawee:roundAsCircle="true"
+            drawee:backgroundImage="@drawable/selector_img_takephpto"
+          />
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/edit_nickname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:hint="@string/perferctuserinfo_edit_hint"
+        android:textColor="@color/black"
+        android:textColorHint="#9a000000"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_head_male_normal" />
+
+            <include
+                layout="@layout/sexview_male"
+                android:layout_width="32dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="10dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_head_female_normal" />
+
+            <include
+                layout="@layout/sexview_female"
+                android:layout_width="32dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="10dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

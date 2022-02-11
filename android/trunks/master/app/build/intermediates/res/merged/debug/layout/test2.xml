@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.brotherhood.o2o.test.blur.TopCenterImageView
+        android:id="@+id/img_normal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/test" />
+
+    <com.brotherhood.o2o.test.blur.TopCenterImageView
+        android:id="@+id/img_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0" />
+
+
+    <com.brotherhood.o2o.test.blur.ScrollableImageView
+        android:id="@+id/scrollable_imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+
+
+</FrameLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/test2.xml -->

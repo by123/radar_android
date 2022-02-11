@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/chat_volatile_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/chat_volatile_time_container_bg"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/chat_volatile_time_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:text="@string/time_unit_second"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/chat_volatile_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_volatile_time_text" />
+
+</RelativeLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/chat_layout_volatile_controller.xml -->

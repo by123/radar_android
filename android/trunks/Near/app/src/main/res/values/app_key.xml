@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_maps_key">AIzaSyBlOKj3fs8D9mRxLipktXJk7UjCuihsTaM</string>
+    <string name="google_place_key">AIzaSyDnvT8TFLxR-QC0JGf0ZCQN26-OtIDziOQ</string>
+
+    <string name="uber_client_id">Bn55HB54NIGJddNt4LVZVuuzNuLGsN2S</string>
+
+
+</resources>

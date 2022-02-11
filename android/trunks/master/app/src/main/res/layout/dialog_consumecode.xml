@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/shape_consumecode_bg"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:id="@+id/txt_title"
+        android:text="商家确认码"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1sp"
+        android:background="@color/divide" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="98dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_edit_bg"
+            android:gravity="center|left"
+            android:hint="请输入确认码"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="#9a000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1sp"
+        android:background="@color/divide" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/main_red" />
+</LinearLayout>

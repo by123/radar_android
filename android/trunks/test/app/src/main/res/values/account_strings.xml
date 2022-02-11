@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_title_login">登录</string>
+    <string name="account_title_registry">手机注册</string>
+    <string name="account_title_find_password">找回密码</string>
+</resources>

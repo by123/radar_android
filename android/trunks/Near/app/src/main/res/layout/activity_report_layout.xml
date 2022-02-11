@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_activities_bg"
+    android:paddingBottom="41dp"
+    >
+
+    <View
+        android:id="@+id/viReportDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/common_divide_color"/>
+
+    <TextView
+        android:id="@+id/tvReportTitle"
+        android:layout_below="@id/viReportDivide"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/report_title_text"
+        android:textColor="@color/report_title_color"
+        android:textSize="12sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgReportReson"
+        android:layout_below="@id/tvReportTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/rbReportSexy"
+            style="@style/ReportItemStyle"
+            android:text="@string/report_reason_sexy"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_divide_color"
+            />
+
+        <RadioButton
+            android:id="@+id/rbReportAd"
+            style="@style/ReportItemStyle"
+            android:text="@string/report_reason_ad"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/common_divide_color"
+            />
+
+        <RadioButton
+            android:id="@+id/rbReportAbuse"
+            style="@style/ReportItemStyle"
+            android:checked="false"
+            android:text="@string/report_reason_abuse"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/common_divide_color"
+            />
+
+        <RadioButton
+            android:id="@+id/rbReportSensitive"
+            style="@style/ReportItemStyle"
+            android:text="@string/report_reason_politically_sensitive"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/common_divide_color"
+            />
+
+        <RadioButton
+            android:id="@+id/rbReportCheat"
+            style="@style/ReportItemStyle"
+            android:text="@string/report_reason_cheat"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/common_divide_color"
+            />
+
+        <RadioButton
+            android:id="@+id/rbReportIllegal"
+            style="@style/ReportItemStyle"
+            android:text="@string/report_reason_illegal"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvReportSend"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/report_btn_unenable_bg"
+        android:gravity="center"
+        android:text="@string/other_detail_report"
+        android:textColor="@color/fifty_percent_white"
+        android:textSize="17sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

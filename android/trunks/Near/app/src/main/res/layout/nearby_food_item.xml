@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:corner="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_radius_view_click_bg">
+
+        <RelativeLayout
+            android:id="@+id/ryInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+            <com.brotherhood.o2o.ui.widget.CornerImageView
+                android:id="@+id/ivForeignFoodIcon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="12dp"
+                android:duplicateParentState="true"
+                android:src="@mipmap/img_default"
+                corner:leftBottomRadius="2.5dp"
+                corner:leftTopRadius="2.5dp"
+                corner:rightBottomRadius="2.5dp"
+                corner:rightTopRadius="2.5dp"
+                />
+
+            <TextView
+                android:id="@+id/tvForeignFoodTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivForeignFoodIcon"
+                android:duplicateParentState="true"
+                android:singleLine="true"
+                android:textColor="@color/eighty_percent_black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+
+            <com.brotherhood.o2o.ui.widget.nearby.FoodPriceLevelView
+                android:id="@+id/fpForeignFoodPriceLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvForeignFoodTitle"
+                android:layout_marginRight="@dimen/text_size_12_dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ivForeignFoodIcon"
+                android:duplicateParentState="true"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/llForeignFoodType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fpForeignFoodPriceLevel"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ivForeignFoodIcon"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvForeignFoodType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:singleLine="true"
+                    android:text="Pizza"
+                    android:textColor="@color/fifty_percent_black"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvForeignFoodDistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:singleLine="true"
+                    android:text="1.5km"
+                    android:textColor="@color/fifty_percent_black"
+                    android:textSize="12dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llfoursquare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llForeignFoodType"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ivForeignFoodIcon"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gray_radius_edge_bg"
+                    android:padding="1px"
+                    android:src="@mipmap/foursquare_food_logo"
+                    />
+
+                <com.brotherhood.o2o.ui.widget.nearby.FoodScoreView
+                    android:id="@+id/fsForeignFoodScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/food_score_darkgreen_bg"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:singleLine="true"
+                    android:text="8.6"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvForeignFoodVotes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="1201\tvotes"
+                    android:textColor="@color/fifty_percent_black"
+                    android:textSize="12dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvForeignClosed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Closed"
+                    android:textColor="@color/near_warn_red_color"
+                    android:textSize="11dp"
+                    android:visibility="gone"
+                    />
+
+
+            </LinearLayout>
+
+            <com.brotherhood.o2o.ui.widget.YelpRatingView
+                android:layout_marginTop="5dp"
+                android:id="@+id/yelpRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llfoursquare"
+                android:layout_toRightOf="@id/ivForeignFoodIcon"
+                android:orientation="horizontal"
+                />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivFoodListCollect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/food_collect"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+</RelativeLayout>

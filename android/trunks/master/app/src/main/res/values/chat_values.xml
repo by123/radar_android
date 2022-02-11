@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="default_session_msg_pic">[图片消息]</string>
+    <string name="default_session_msg_voice">[语音消息]</string>
+    <string name="default_session_msg_location">[位置消息]</string>
+    <string name="default_session_msg_volatile">[阅后即焚消息]</string>
+    <string name="default_session_msg_video">[小视频]</string>
+    <string name="statusbar_msg_count">[%s条]</string>
+    <string name="statusbar_msg_type_friend">来自好友%s的消息</string>
+    <string name="statusbar_msg_type_group">来自群%s的消息</string>
+    <string name="statusbar_msg_type_system">系统消息</string>
+    <string name="statusbar_msg_ticker">收到一条消息</string>
+    <string name="default_session_msg_other_sub_type">[消息]</string>
+    <string name="tips_move_up_to_cancel_voice">手指上滑，取消发送</string>
+    <string name="tips_untouch_to_cancel_voice">手指松开，取消发送</string>
+    <string name="tips_press_to_speak">按住 说话</string>
+    <string name="tips_press_to_capture_video">按住 拍摄</string>
+    <string name="tips_untouch_to_cancel">松开 取消</string>
+    <string name="tips_untouch_to_finish">松开 结束</string>
+    <string name="tips_recorded_voice_too_short">录制时间太短</string>
+    <string name="chat_feature_image">图片</string>
+    <string name="chat_feature_camera_photo">拍照</string>
+    <string name="chat_feature_location">位置</string>
+    <string name="chat_feature_volatile">阅后即焚</string>
+    <string name="chat_feature_short_video">短视频</string>
+    <string name="chat_pp_cancel">取消</string>
+    <string name="chat_pp_done">完成</string>
+    <string name="chat_upload_media_io_error">网络错误，请重试</string>
+    <string name="chat_upload_media_internal_error">服务器错误，请重试</string>
+    <string name="chat_img_not_found_or_ot">图片被删除或者过期</string>
+    <string name="chat_can_not_show_img">图片无法显示</string>
+    <string name="chat_download_img_io">无法下载图片，请检查网络</string>
+    <string name="chat_download_img_data_error">无法下载图片，请稍候重试</string>
+    <string name="chat_location_error">错误的坐标</string>
+    <string name="title_location">位置</string>
+    <string name="time_unit_second">秒</string>
+    <string name="chat_open_camera_failed">无法打开摄像头，请重试</string>
+    <string name="chat_failed_to_capture_video">录制短视频失败，请重试</string>
+    <string name="chat_exit">退出</string>
+    <string name="chat_record_audio_error_no_sdcard">录音失败，没检测到存储卡</string>
+    <string name="chat_record_audio_error_no_permission">录音失败，可能由于应用没有被授予录音权限</string>
+    <string name="chat_cancel">取消</string>
+    <string name="chat_send">发送</string>
+    <string name="anonymous">匿名</string>
+    <string name="anonymous_friend">匿名好友</string>
+    <string name="him_anonymous">对方匿名</string>
+    <string name="me_anonymous">我匿名</string>
+    
+    <string name="chat_feature_realtime_voice">实时语音</string>
+    <string name="chat_feature_realtime_video">实时视频</string>
+
+</resources>

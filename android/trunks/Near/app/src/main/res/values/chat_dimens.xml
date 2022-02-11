@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="chat_anim_dur" type="integer">300</item>
+
+    <dimen name="chat_send_img_dimen">160dp</dimen>
+    <dimen name="chat_emo_page_index_padding">5dp</dimen>
+
+</resources>

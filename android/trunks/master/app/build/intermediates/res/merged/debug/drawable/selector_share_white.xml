@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_activity_introduction_share_press" android:state_pressed="true" />
+    <item android:drawable="@drawable/ic_activity_introduction_share_normal" />
+</selector><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/drawable/selector_share_white.xml -->

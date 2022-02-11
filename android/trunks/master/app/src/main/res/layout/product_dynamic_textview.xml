@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txt_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alpha="0.5"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:gravity="left"
+    android:text="地点 : 深圳市南山区京基百纳购物广场"
+    android:textColor="@color/black"
+    android:textSize="14sp" />

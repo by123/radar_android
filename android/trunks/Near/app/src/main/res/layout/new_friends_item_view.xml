@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <com.brotherhood.o2o.ui.widget.SwLin
+        android:id="@+id/swLinLayout"
+        android:layout_width="match_parent"
+        android:layout_height="78dp">
+
+        <RelativeLayout
+            android:id="@+id/ryMain"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:background="@drawable/common_view_btn_bg"
+            android:orientation="horizontal"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/ivUserAvatar"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="14dp"
+                android:background="@mipmap/ic_msg_my_friend_normal"/>
+
+
+            <RelativeLayout
+                android:id="@+id/ryAdd"
+                android:layout_width="68dp"
+                android:layout_height="34dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/tvAddFriended"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/new_friends_added"
+                    android:textColor="#4d000000"
+                    android:textSize="14sp"
+                    />
+
+                <Button
+                    android:id="@+id/btnNewFriendsAcc"
+                    android:layout_width="68dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/new_friends_btn_bg"
+                    android:text="@string/new_friends_btn_agree"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:visibility="invisible"/>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ryMsgIcon"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@id/ryAdd"
+                android:layout_toRightOf="@id/ivUserAvatar"
+                android:textColor="@color/my_message_text"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:id="@+id/tvMessageContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvUserName"
+                android:layout_marginTop="8dp"
+                android:layout_toLeftOf="@id/ryAdd"
+                android:layout_toRightOf="@id/ivUserAvatar"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#af000000"
+                android:textSize="15sp"/>
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnMessageDelete"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="@string/message_delete"
+            android:textColor="@color/white"/>
+    </com.brotherhood.o2o.ui.widget.SwLin>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="82dp"
+        android:background="@color/message_divide"
+        />
+</LinearLayout>
+
+

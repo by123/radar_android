@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="chat_ui_background">#FFEEEEEE</color>
+    <color name="chat_line">@android:color/darker_gray</color>
+    <color name="chat_timeline">#FF818181</color>
+    <color name="chat_ui_background_anonym">#FF181818</color>
+
+    <!-- for test use, keep the following -->
+    <!-- <color name="chat_f_controller_non_focused">#3300FF00</color> -->
+    <!-- <color name="chat_f_controller_focused">#33FF0000</color> -->
+
+    <color name="chat_f_controller_non_focused">@android:color/transparent</color>
+    <color name="chat_f_controller_focused">@android:color/transparent</color>
+	<color name="chat_green">#FF00FF00</color>
+    <color name="chat_white">@android:color/white</color>
+</resources>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.brotherhood.o2o"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
+    >
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.location_hardware"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <!-- start of dgc_pass service permissions -->
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!-- end of dgc_pass service permissions -->
+
+
+    <!-- start of baidu_lbs service permissions -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <!-- end of baidu_lbs service permissions -->
+
+
+    <!-- IM SDK必选权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- 聊天库SDK必选权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <!-- 通讯录权限 -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.brotherhood.o2o.permission.MAPS_RECEIVE"/>
+    <permission android:name="com.brotherhood.o2o.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+    <application
+        android:name=".application.NearApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        >
+        <uses-library android:name="com.google.android.maps" android:required="false"/>
+
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="A8CPV115CZRH"
+            />
+        <meta-data
+            android:name="InstallChannel"
+            android:value="osc"
+            />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55af9f78e0f55a5b90003a94"
+            />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"
+            />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            />
+
+        <!-- start of baidu_lbs service -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="0t0oIayPSGfK7k3A9nxt4lEa"
+            />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":bd_remote"
+            />
+        <!-- end of baidu_lbs service -->
+
+        <!-- &lt;!&ndash; IM SDK注册组件 &ndash;&gt; -->
+        <service
+            android:name="com.skynet.library.message.MessageService"
+            android:exported="false"
+            />
+        <receiver android:name="com.skynet.library.message.MessageReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.brotherhood.o2o.MNSF_ALARM_ACTION"/>
+
+                <data
+                    android:host="sdk.im"
+                    android:scheme="skynet"
+                    />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- end -->
+        <!--网络状态监听广播-->
+        <receiver android:name=".receiver.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <!-- 这里要全名 ，不然调用getLocalClassName方法得到不全-->
+        <activity
+            android:name="com.brotherhood.o2o.ui.activity.SplashActivity"
+            android:launchMode="singleTop"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            />
+        <activity
+            android:name=".ui.activity.SplashLoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            />
+        <activity
+            android:name=".chat.ui.ChatActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            />
+
+        <service
+            android:name=".service.NearService"
+            android:exported="false"
+            android:priority="1000"
+            />
+
+        <activity
+            android:name=".ui.activity.UserDetailActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.SetPersonInfoActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.ChoosePhotoActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"
+            />
+        <activity
+            android:name=".ui.activity.PhotoPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            />
+        <activity
+            android:name=".ui.activity.EventDetailActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.MyEventActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.WebViewActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            />
+        <activity android:name=".ui.activity.UserSettingActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize"
+            />
+        <activity android:name=".ui.activity.ModifyTextActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize"
+                  />
+        <activity android:name=".chat.ui.ImgPreviewActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.MyMessageActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.MyFriendsActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.MyGroupListActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.AddFriendActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.NewFriendsActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.SystemMsgListActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.SystemMsgDetailActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.GroupDetailActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.AddFriendVerifyActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".chat.ui.ModifyGroupNameActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.MyCollectActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.PhotosActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.PhotosGalleryActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".ui.activity.OtherUserDetailActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.ReportActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.activity.VisitorListActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.activity.NearbyServiceActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".ui.activity.OverseaSearchFoodActivity"
+                  android:screenOrientation="portrait"
+            />
+        <activty android:name=".ui.activity.AboutUsActivity"
+                 android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.activity.ServiceAgreementActivity"
+                  android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.activity.OverseaFoodDetailActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".ui.activity.GoogleMapActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.activity.OverseaSplashLoginActivity"
+                  android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.activity.EmailRegistActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.EmailLoginActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.SendEmailActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.OverseaChoosePhotoActivity"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|screenSize"
+            />
+        <activity android:name=".ui.activity.AboutUsActivity">
+        </activity>
+        <activity android:name=".ui.activity.ReportSuccessActivity">
+        </activity>
+        <activity android:name=".ui.activity.EnvironmentActivity">
+        </activity>
+        <activity android:name=".ui.activity.EnvChangeActivity">
+        </activity>
+
+        <!--Using Facebook Login or Share-->
+        <activity android:name="com.facebook.FacebookActivity"
+                  android:configChanges=
+                      "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:label="@string/app_name" />
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--下拉刷新组件通用id-->
+    <item type="id" name="flPtrClassic">false</item>
+
+    <!--MultiStateView-->
+    <item type="id" name="stateView">false</item>
+
+    <!--公用recyclerview-->
+    <item type="id" name="rvBaseRecycler">false</item>
+
+    <item type="id" name="pullToZoomScrollview"/>
+
+
+    <!--actionbar相关id-->
+    <item type="id" name="abLeftBase">false</item>
+    <item type="id" name="abCenterBase">false</item>
+    <item type="id" name="abAlpha">false</item>
+    <item type="id" name="abDivide">false</item>
+    <item type="id" name="abBack">false</item>
+    <item type="id" name="abTitle">false</item>
+    <item type="id" name="abRight">false</item>
+    <item type="id" name="abHorizontalDivide">false</item>
+    <item type="id" name="abRightImage">false</item>
+    <item type="id" name="abRightText">false</item>
+    <!--底部三项选择dialog通用id-->
+    <item type="id" name="dialogFirstLine">false</item>
+    <item type="id" name="dialogSecondLine">false</item>
+    <item type="id" name="dialogThirdLine">false</item>
+    <item type="id" name="viDialogFirstDivide">false</item>
+
+</resources>

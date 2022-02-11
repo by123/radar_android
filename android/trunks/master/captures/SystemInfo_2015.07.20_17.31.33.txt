@@ -1,0 +1,42 @@
+Applications Memory Usage (kB):
+Uptime: 22959528 Realtime: 23083924
+
+** MEMINFO in pid 7433 [com.brotherhood.o2o] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native        0        0        0     8908     8324      307
+       Dalvik     9001    10896     8648    16028    13377     2651
+        Stack      172        8      172                           
+       Cursor        0        0        0                           
+       Ashmem        0        0        0                           
+    Other dev     2472     2044     1456                           
+     .so mmap     4845     3104     1532                           
+    .jar mmap        0        0        0                           
+    .apk mmap       91        0        0                           
+    .ttf mmap      198        0        0                           
+    .dex mmap     2615      124        8                           
+   Other mmap      140        8        4                           
+      Unknown     4212     1488     4176                           
+        TOTAL    23746    17672    15996    24936    21701     2958
+ 
+ Objects
+               Views:       22         ViewRootImpl:        1
+         AppContexts:        4           Activities:        1
+              Assets:        3        AssetManagers:        3
+       Local Binders:       14        Proxy Binders:       36
+    Death Recipients:       17
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:      314
+  PAGECACHE_OVERFLOW:       74          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       44            100       20/41/13  /data/data/com.brotherhood.o2o/databases/tencent_analysis.db
+         4       40             18         0/15/1  /data/data/com.brotherhood.o2o/databases/webview.db
+         4       44             29        10/19/3  /data/data/com.brotherhood.o2o/databases/pri_tencent_analysis.db
+ 
+ Asset Allocations
+    zip:/system/framework/framework-res.apk:/resources.arsc: 1042K

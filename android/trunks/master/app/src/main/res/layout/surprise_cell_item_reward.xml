@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drawee="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:background="@color/white">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/image_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        drawee:roundedCornerRadius="4dp" />
+
+    <ImageView
+        android:id="@+id/img_arrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_arrow_right_gray" />
+
+    <ImageView
+        android:id="@+id/img_statu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/image_icon"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/image_icon"
+        android:alpha="0.8"
+        android:includeFontPadding="false"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="16dp"
+        android:id="@+id/txt_free"
+        android:layout_alignTop="@id/image_icon"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/txt_name"
+        android:background="@drawable/shape_free_bg"
+        android:gravity="center"
+        android:text="免费"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txt_name"
+        android:layout_below="@id/txt_name"
+        android:layout_marginTop="8dp"
+        android:alpha="0.5"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/txt_authentication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txt_time"
+        android:layout_below="@id/txt_time"
+        android:layout_marginTop="6dp"
+        android:alpha="0.5"
+        android:text="凭证：商家确认"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+</RelativeLayout>

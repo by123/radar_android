@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:near="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/bg_login_imgfuzzy_normal"/>
+
+    <EditText
+        android:id="@+id/etLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="156dp"
+        android:background="@null"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:singleLine="true"
+        android:textSize="17sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/etLoginEmail"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/twenty_percent_white"/>
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/etLoginEmail"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@null"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="17sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/etLoginPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/twenty_percent_white"/>
+
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/cpbEmailLogin"
+        style="@style/LoginBtnStyleI18N"
+        android:layout_below="@id/etLoginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="@color/near_main_orange_color"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        near:cpb_colorIndicator="@color/near_main_orange_color"
+        near:cpb_colorIndicatorBackground="#00000000"
+        near:cpb_colorProgress="#00000000"
+        near:cpb_cornerRadius="50dp"
+        near:cpb_selectorIdle="@drawable/idle_state_selector"
+        near:cpb_textIdle="@string/login"
+        />
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/llEmailLogin"-->
+    <!--style="@style/LoginBtnStyleI18N"-->
+    <!--android:layout_below="@id/etLoginPassword"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="55dp"-->
+    <!--android:background="@drawable/phone_login_btn_bg"-->
+    <!--android:visibility="gone"-->
+    <!-->-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="6dp"-->
+    <!--android:duplicateParentState="true"-->
+    <!--android:text="@string/login"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="17sp"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cpbEmailLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="13dp"
+        android:text="@string/forgot_your_password"
+        android:textColor="@color/white"
+        android:textSize="13dp"/>
+
+   <!-- <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etLoginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="1px"
+            android:background="@color/ten_percent_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/or"
+            android:textSize="13dp"/>
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="0.5dp"
+            android:background="@color/ten_percent_white"/>
+
+
+    </LinearLayout>
+-->
+
+   <!-- <LinearLayout
+        android:id="@+id/llLoginFacebookBtn"
+        style="@style/LoginBtnStyleI18N"
+        android:layout_below="@id/etLoginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/facebook_login_btn_bg"
+        >
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:duplicateParentState="true"
+            android:src="@mipmap/ic_login_facebook_normal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:duplicateParentState="true"
+            android:text="@string/login_btn_facebook"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            />
+    </LinearLayout>-->
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周杰伦"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_name"
+            android:layout_below="@+id/txt_name"
+            android:layout_marginTop="5dp"
+            android:text="广东省深圳市南山区科兴科学园北门A3"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_title"
+            android:layout_below="@+id/txt_title"
+            android:layout_marginTop="5dp"
+            android:text="18680686420"
+            android:textColor="@color/gray" />
+
+        <View
+            android:id="@+id/statuview"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_receiving_selected_normal" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divide_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/txt_phone"
+        android:layout_marginLeft="15dp"
+        android:background="@color/divide" />
+
+</LinearLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/addlocation_listitem.xml -->

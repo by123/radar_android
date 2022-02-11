@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drawee="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/img_point"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:padding="4.5dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/radar_female_normal"
+       />
+
+</FrameLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_titlebar_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@id/abBack"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/common_view_btn_bg"
+            android:drawablePadding="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:src="@mipmap/back_image_black"
+            />
+
+        <View
+            android:id="@id/abDivide"
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:alpha="0.3"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:text="@string/my_friend"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/ryHasNewFriend"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_view_btn_bg"
+            >
+
+            <ImageView
+                android:id="@+id/ivMsgTip"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_msg_tip_normal"/>
+
+            <com.brotherhood.o2o.ui.widget.MsgHintView
+                android:id="@+id/msgHintView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="5dp"
+
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@id/abHorizontalDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/abAlpha"
+        android:background="@color/common_divide_color"
+        />
+
+    <com.brotherhood.o2o.lib.multiStateView.MultiStateView
+        android:id="@id/stateView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyView="@layout/empty_view"
+        app:errorView="@layout/error_view"
+        app:loadingView="@layout/loading_view"
+        app:viewState="loading">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="181dp"-->
+            <!--android:orientation="vertical"-->
+            <!-->-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvNoFriends"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:layout_marginRight="50dp"-->
+            <!--android:drawablePadding="20dp"-->
+            <!--android:drawableTop="@mipmap/ic_msg_no_friend_normal"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/my_friend_empty"-->
+            <!--android:textColor="#66000000"-->
+            <!--android:textSize="14sp"-->
+            <!--android:visibility="gone"/>-->
+            <!--</LinearLayout>-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <com.brotherhood.o2o.ui.widget.SideBar
+                android:id="@+id/sidebar"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="100dp"
+                android:layout_marginTop="50dp"
+                />
+        </RelativeLayout>
+    </com.brotherhood.o2o.lib.multiStateView.MultiStateView>
+
+</LinearLayout>

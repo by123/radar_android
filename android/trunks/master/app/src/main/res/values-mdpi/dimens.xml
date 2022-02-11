@@ -1,0 +1,59 @@
+<resources>
+
+    <dimen name="menu_width">270dp</dimen>
+    <dimen name="height_1">350dp</dimen>
+    <dimen name="head_value">190dp</dimen>
+    <dimen name="head_marginRight">1dp</dimen>
+    <dimen name="head_value_layout">101dp</dimen>
+    <dimen name="head_value_layout_top">23dp</dimen>
+    <dimen name="head_circular">87dp</dimen>
+    <dimen name="content_top">12dp</dimen>
+    <dimen name="content_item_heigh">50dp</dimen>
+    <dimen name="content_item_paddingLeft">85dp</dimen>
+    <dimen name="content_item_top">15dp</dimen>
+    <dimen name="result_height">100dp</dimen>
+    <dimen name="list_margin_bottom">-70dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    
+    <!-- 邀请码 界面 -->
+    <dimen name="register_1_padingto">113dp</dimen>
+    <dimen name="register_1_top_width">215dp</dimen>
+    <dimen name="register_1_top_TextSize">23sp</dimen>
+    <dimen name="register_1_Edit_layout_magingtop">20dp</dimen>
+    <dimen name="register_1_EditText_width">160dp</dimen>
+    <dimen name="register_1_EditText_margin">10dp</dimen>
+    <dimen name="register_1_EditText_TextSize">18sp</dimen>
+    <dimen name="register_1_Button_width">215dp</dimen>
+    <dimen name="register_1_Button_height">45dp</dimen>
+    <dimen name="register_1_Button_margintop">40dp</dimen>
+    <dimen name="register_1_Button_marginbottom">50dp</dimen>
+    <dimen name="register_1_layout_bottom_width">300dp</dimen>
+    <dimen name="register_1_layout_bottom_padding_right">30dp</dimen>
+    <dimen name="register_1_layout_bottom_TextSize">14sp</dimen>
+
+    <!-- 邀请码界面 end -->
+    
+    
+    <!-- newuser start-->
+    <dimen name="newuser_step1_main_top">0dp</dimen>
+        <dimen name="newuser_step1_title_top">40dp</dimen>
+     <!--newuser end  -->
+     
+       <!-- 雷达背景头像大小 -->
+      <dimen name="radar_head_bg">78dp</dimen>
+      <dimen name="radar_head">76dp</dimen>
+      
+          <!-- 兴趣爱好栏边距 -->
+    <dimen name="tv_name_length">120dp</dimen>
+    
+    <dimen name="hobby_item_length">30dp</dimen>
+    
+    <dimen name="margin_top_id">6dp</dimen>
+      <dimen name="margin_top_content">1dp</dimen>
+      
+      <dimen name="head_padding_value">1dp</dimen>
+      
+       <dimen name="hobby_item_min_height">40dp</dimen>
+
+</resources>

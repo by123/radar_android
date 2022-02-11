@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\baidumapapi_v3_5_0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b0993ed32fd0495be17df0023923e8a902babbea">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_5_0-76430dba1c0f4951cef9ee5306ebfe25c13aaaa4.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\dlogsdk-1.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="de4b166e7b5df888e44e3f728922e7c0a2324be3">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\dlogsdk-1.3.1-692a387138496d36f2b047261b1464cfbf0539fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\library-2.4.0-96b1cc2eaeca9cc214878147866e193a418d5d05.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.1\905075e6c80f206bbe6cf1e809d2caa69f420c76\commons-lang3-3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\commons-lang3-3.1-4e5bdd80a4f612a2892068fe553604f0d4a900c1.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.yalantis\flipviewpager\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="961d79128f594dda45688dba408e9eb27cb55724">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-c8af4f09657c8ceebcfabcd4791a8c728fe6ef6b.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5670842d1f44c002eabaac3d169a388ebc7dc649">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-2ae9950d3ac5c40773b0e31602a1cc3629604622.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-1c5362cbe231a94bfc39f83eb328f1532fe3ae81.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-37babfa4dca98aaa3481a808da1311c2f4d27d46.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\5.6.1\b2705cbb19f52bb4d242458163a98d9e889c1292\analytics-5.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2705cbb19f52bb4d242458163a98d9e889c1292">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\analytics-5.6.1-db7750d438ede5fa182af67169a3503246e16138.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.5\77bf7cacf9cefe19dc105e5425d2eb1bb5285881\android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.5-a2211fef96f385c93a344ca1061400fa9e41570d.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\slf4j-android-1.6.1-RC1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\slf4j-android-1.6.1-RC1-1798f2553560184b7134a305e0ca728c24f1b57d.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\TencentSearch1.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ceb80fccd5d27b37997c2988bd3993cc767cbaf">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\TencentSearch1.1.1-f82722eac208cb6eec5e8e093e9bb271908390fc.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c52b6f76d1afe959a9b6651ae61d2b0d158f8c9">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-d1efc65d332f6026cd4a464f423ac80c1510e30c.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\4.47\e11abddd1e9c2053a92133fa83f78f7bedb820a9\ormlite-core-4.47.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e11abddd1e9c2053a92133fa83f78f7bedb820a9">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\ormlite-core-4.47-d46b9c3a678bfa8a069e2c27695eb897050ea8f6.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\skynetloginlibrary_net.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="96672f424e1dc3d26c6e70b34dd38b541502032a">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\skynetloginlibrary_net-bb9dcdf800f061c85a671037a21e5e7335ab90c4.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\libammsdk-83982a3cb56b2ffeaee28f30ad526da72467673b.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-d58659eb64599fe53158ec9839f3fa121c6309d0.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\mid-sdk-2.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b8c105b39a07ec1c2ca81919d64eac5482dca87">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\mid-sdk-2.10-2e3291ca0743f0df37ba5c13a4bd55cf6970937d.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\TencentLocationSDK_v4.1.1_r175129.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ae87b3be4854124f7e9e745ce0ce65e6f7ee817">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\TencentLocationSDK_v4.1.1_r175129-1ab646dff54332330d94b80bb9a274b9c67a3620.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.github.snowdream.android.util.concurrent\multithread\0.0.7\b4d7abfb457b30c82316ec6b389ab314c1e3c7fb\multithread-0.0.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b4d7abfb457b30c82316ec6b389ab314c1e3c7fb">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\multithread-0.0.7-69b85d3e387e4d1fd3ab91cb0b820b0b3d8338ac.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\fastjson-1.2.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9f675e9a1b2bf1224183005752a9214226e8aa8e">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\fastjson-1.2.5-9c7b3f408c4a56a7df2440e352130807215776b3.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\Android_Location_V1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2ffeb17da57de5b5e57ec44c6397fb4d682cf0db">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\Android_Location_V1.3.0-26d2614f2915107c3f7ef90e5d7864d371131907.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6c828a82efd4d7b389ea45dcc883f38ba053263d">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-11933aec3e5e9e2a23eb4bb920572784072558d8.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-9fccabfed3e929092edbc38cc74df2c456eca2bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.github.snowdream.android.util\log\1.0.4\9201d518181f9dc5cd7ea49216611a327e2e07f7\log-1.0.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9201d518181f9dc5cd7ea49216611a327e2e07f7">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\log-1.0.4-5bb49c4f70eb4467e49d83b6c5668e2ce891fa69.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\okio-1.6.0-dd696c3967b642c1159344dea47ec31300ed7238.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="37aae81df5f8ad7eb9616034d88e88cee9ebd075">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\wup-1.0.0-SNAPSHOT-25283b4ba90198492170852d5cb3154f813350ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.github.snowdream.android.app\downloader\1.0\23db412d2ca4f61647e3fd36538924b616b3d54e\downloader-1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23db412d2ca4f61647e3fd36538924b616b3d54e">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\downloader-1.0-06af4b5ebbca64a580c5b959f689cbdcdcddda35.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aafdd2ccb8b4a3bfecb83127f189cbbb4f864a73">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-3aae1d760c2bfd424f1c72e26d8bf3a0dd816e8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-36bafd3811892e1cb6387728f251fd1152dc29d0.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\mta-sdk-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ac2f559577819fe0901398ead81216df54b0a783">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\mta-sdk-2.0.0-ff98449bb76e3c0d70946b96047841e954a77561.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\odrService_1.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f5a4ce4db92c43a158f8990a214e2acaf1df6635">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\odrService_1.0.3-dfc62fe0bba12bcc299b5a9232c4518da958aa86.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\AMap_2DMap_V2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b88f23e0938f4d9bef68e1ffabfd3fc2657d71e4">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\AMap_2DMap_V2.3.1-88af4275f1ebc9474c3096b9097f96b46b58e9ef.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\dgc_push_service.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dcd5c1358437b61502b15d8f948bf2a45da90f3f">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\dgc_push_service-9958b2dad306bf3770e4faf0674c1999ed181780.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\locSDK_5.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5a34dcc2783dfe0fb7a7b47745d14d36b4f523">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\locSDK_5.3-894f311cfab34bf39111fa421837f3c7ba7ca62e.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\gif.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ab78ed461deab5206c4cac6bbcf60e6d963cfd85">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\gif-49a531c83cf2d2737f934f7b995c99ecab951935.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\de.greenrobot\greendao\1.3.7\dda08161d004c4df96938da6909f1c2b96cd33c8\greendao-1.3.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dda08161d004c4df96938da6909f1c2b96cd33c8">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\greendao-1.3.7-64ddf51da29a420d10ed540721e534d55d4cb709.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\skynetmessagelibrary.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="239bd30df63bcaba589253a53c6405e5b8a13743">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\skynetmessagelibrary-aa0361d64751e5dde11a4499b5b67e75cba7909e.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.47\c72f9ed54d8a8bab3fbf56da2b358308a67899a4\ormlite-android-4.47.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c72f9ed54d8a8bab3fbf56da2b358308a67899a4">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\ormlite-android-4.47-9e70c986377797436120b6d2b193c8cd20293671.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\libs\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-6ae4cdbfee5c7ea65bd7824a79ca014adb6c1824.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-23b70c9976aa0cd166431d0511ebe766e522719c.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-227d159bea023b9cccfe9621105f68bf7222df98.jar" />
+    </item>
+    <item
+        jar="C:\Users\jl.zhang\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\gson-2.3.1-22ea86565bf98b4e7061acb2cc2ebc444f4d80fb.jar" />
+    </item>
+    <item
+        jar="D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="edcb1bb563fa950dfa638b8efd10398088ceaccc">
+        <dex dex="D:\near_source_code\android\trunks\master\app\build\intermediates\pre-dexed\debug\classes-4298661d56178fc205ff56cc47b35b04657b8c90.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:drawee="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/CustomToolBar"
+            android:navigationIcon="@drawable/selector_arrow_left"
+            app:navigationIcon="@drawable/selector_arrow_left">
+
+            <TextView
+                style="@style/CustomToolbarTitleView"
+                android:text="@string/personalfragment_userinfo" />
+        </android.support.v7.widget.Toolbar>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="28dp"
+            android:background="@color/divide" />
+
+        <LinearLayout
+            android:id="@+id/layout_avatar"
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:background="@drawable/selector_item_click"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.0"
+                android:text="@string/userinfofragment_avatar"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                drawee:backgroundImage="@drawable/ic_default_avatar"
+                drawee:roundAsCircle="true" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_arrow_right_gray" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:background="@color/divide" />
+
+        <LinearLayout
+            android:id="@+id/layout_nickname"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/selector_item_click"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.0"
+                android:text="@string/userinfofragment_nickname"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_nickname"
+                android:layout_width="100dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:textColor="@color/gray"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_arrow_right_gray" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:background="@color/divide" />
+
+        <LinearLayout
+            android:id="@+id/layout_gender"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/selector_item_click"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.0"
+                android:text="@string/userinfofragment_gender"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_arrow_right_gray" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:background="@color/divide" />
+
+        <LinearLayout
+            android:id="@+id/layout_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/selector_item_click"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.0"
+                android:text="@string/userinfofragment_phone"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/gray"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/divide" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="50dp"
+            android:background="@color/divide" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_item_click"
+            android:text="@string/userinfofragment_logout"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/divide" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/CustomProgressBar"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_input_nickname"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/half_transparent"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/dialog_consumecode" />
+
+    </LinearLayout>
+
+</FrameLayout>

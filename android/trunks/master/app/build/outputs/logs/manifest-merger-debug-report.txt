@@ -1,0 +1,495 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:2:1-264:12
+	xmlns:android
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:5:5-80
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:6:5-81
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:8:5-76
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:10:5-84
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:10:22-81
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:11:5-75
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.location_hardware
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:15:5-78
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:15:22-75
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:16:5-88
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:16:22-85
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:18:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:19:5-81
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:20:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CAMERA
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:24:5-60
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:24:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:25:19-67
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:28:5-67
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:28:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:29:5-66
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:29:22-63
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:33:5-85
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:33:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:35:5-73
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:35:22-70
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:51:5-72
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:51:22-69
+application
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:54:5-262:19
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.yalantis:flipviewpager:1.0.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.yalantis\flipviewpager\1.0.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:22:5-35:19
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:58:9-41
+	android:allowBackup
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:56:9-35
+	android:icon
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:57:9-43
+	android:theme
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:59:9-40
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:55:9-50
+meta-data#TA_APPKEY
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:61:9-63:44
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:62:13-37
+	android:value
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:63:13-41
+meta-data#InstallChannel
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:64:9-66:35
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:65:13-42
+	android:value
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:66:13-32
+meta-data#TencentMapSDK
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:67:9-69:67
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:68:13-41
+	android:value
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:69:13-64
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:70:9-72:56
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:71:13-52
+	android:value
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:72:13-53
+meta-data#UMENG_APPKEY
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:73:9-75:56
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:74:13-40
+	android:value
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:75:13-53
+activity#com.brotherhood.o2o.ui.activity.SplashActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:77:9-84:20
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:78:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:80:13-83:29
+action#android.intent.action.MAIN
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:81:17-69
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:81:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:82:17-77
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:82:27-74
+activity#com.brotherhood.o2o.ui.activity.SplashLoginActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:87:13-60
+activity#com.brotherhood.o2o.ui.activity.MainActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:89:9-92:55
+	android:windowSoftInputMode
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:92:13-52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:90:13-53
+activity#com.brotherhood.o2o.ui.widget.webview.WebViewActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:94:9-71
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:94:19-68
+activity#com.brotherhood.o2o.chat.ChaListActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:96:9-98:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:98:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:97:13-49
+activity#com.brotherhood.o2o.ui.activity.PerfectUserInfoActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:100:9-102:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:101:13-64
+receiver#com.brotherhood.o2o.receiver.LoginReceiver
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:104:9-109:20
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:104:19-57
+intent-filter#ACTION.ACCOUNT.USER_INFO_UPDATE+ACTION.ACCOUNT.USER_LOGIN
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:105:13-108:29
+action#ACTION.ACCOUNT.USER_LOGIN
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:106:17-68
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:106:25-65
+action#ACTION.ACCOUNT.USER_INFO_UPDATE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:107:17-74
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:107:25-71
+activity#com.brotherhood.o2o.ui.activity.LoginActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:113:9-115:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:114:13-54
+activity#com.brotherhood.o2o.wxapi.WXEntryActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:117:9-121:55
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:120:13-49
+	android:theme
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:121:13-52
+	android:exported
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:119:13-36
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:118:13-50
+activity#com.brotherhood.o2o.personal.controller.UserInfoActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:126:9-128:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:128:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:127:13-65
+activity#com.brotherhood.o2o.personal.controller.SystemMsgActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:129:9-131:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:131:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:130:13-66
+activity#com.brotherhood.o2o.personal.controller.AboutActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:132:9-134:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:133:13-62
+activity#com.brotherhood.o2o.personal.controller.FeedbackActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:135:9-137:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:137:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:136:13-65
+activity#com.brotherhood.o2o.surprise.controller.MySurpriseActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:141:9-143:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:143:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:142:13-67
+activity#com.brotherhood.o2o.location.controller.SetLocationActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:147:9-149:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:149:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:148:13-68
+service#com.skynet.android.report.DataReportService
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:153:9-159:19
+	android:label
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:156:13-38
+	android:process
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:157:13-41
+	android:exported
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:155:13-36
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:154:13-71
+action#skynet.report.intent.action.LAUNCHER_REPORT_SERVICE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:158:13-90
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:158:21-87
+service#com.idswz.plugin.service.PluginService
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:163:9-171:19
+	android:label
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:166:13-38
+	android:process
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:167:13-45
+	android:exported
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:165:13-36
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:164:13-66
+intent-filter#com.idswz.plugin.service.PluginService
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:168:13-170:29
+action#com.idswz.plugin.service.PluginService
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:169:17-81
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:169:25-78
+receiver#com.idswz.plugin.broadcast.ConnectionChange
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:172:9-178:20
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:172:19-77
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.idswz.INIT
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:173:13-177:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:174:17-79
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:174:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:175:17-77
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:175:25-74
+action#com.idswz.INIT
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:176:17-57
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:176:25-54
+service#com.baidu.location.f
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:185:9-188:44
+	android:process
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:188:13-41
+	android:enabled
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:187:13-35
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:186:13-48
+service#com.skynet.library.message.MessageService
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:193:9-195:40
+	android:exported
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:195:13-37
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:194:13-69
+receiver#com.skynet.library.message.MessageReceiver
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:197:9-208:20
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:197:19-76
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:198:13-200:29
+intent-filter#com.brotherhood.o2o.MNSF_ALARM_ACTION
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:201:13-207:29
+action#com.brotherhood.o2o.MNSF_ALARM_ACTION
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:202:17-80
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:202:25-77
+data
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:204:17-206:47
+	android:host
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:205:21-42
+	android:scheme
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:206:21-44
+meta-data#com.amap.api.v2.apikey
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:213:9-215:64
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:214:13-50
+	android:value
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:215:13-61
+activity#com.brotherhood.o2o.chat.ui.ChatActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:217:9-220:70
+	android:windowSoftInputMode
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:220:13-67
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:219:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:218:13-49
+activity#com.brotherhood.o2o.chat.ui.ImgPreviewActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:221:9-223:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:223:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:222:13-55
+activity#com.brotherhood.o2o.chat.ui.VolatileMsgViewer
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:224:9-226:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:226:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:225:13-54
+activity#com.brotherhood.o2o.chat.ui.LocationActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:227:9-229:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:229:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:228:13-53
+receiver#com.brotherhood.o2o.chat.utils.ChatReceiver
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:231:9-235:20
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:231:19-58
+intent-filter#com.brotherhood.o2o.im_callback
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:232:13-234:29
+action#com.brotherhood.o2o.im_callback
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:233:17-74
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:233:25-71
+activity#com.brotherhood.o2o.explore.controller.OrderActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:239:9-241:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:241:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:240:13-61
+activity#com.brotherhood.o2o.location.controller.AddDeliveryLocationActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:243:9-245:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:245:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:244:13-76
+activity#com.brotherhood.o2o.location.controller.DeliverySuccessActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:247:9-249:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:249:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:248:13-72
+activity#com.brotherhood.o2o.explore.controller.OrderSuccessActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:251:9-253:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:253:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:252:13-68
+activity#com.brotherhood.o2o.ui.activity.UpdatePhoneActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:255:9-257:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:257:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:256:13-60
+activity#com.brotherhood.o2o.personal.controller.SystemMsgDetailActivity
+ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:259:9-261:52
+	android:screenOrientation
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:261:13-49
+	android:name
+		ADDED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml:260:13-72
+uses-sdk
+INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.facebook.fresco:fresco:0.5.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.5.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.5.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.5.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.5.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.5.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.yalantis:flipviewpager:1.0.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.yalantis\flipviewpager\1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:22.2.0] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\near_source_code\android\trunks\master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:18:22-65
+activity#com.bugtags.library.BugtagsActivity
+ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:23:9-26:86
+	android:configChanges
+		ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:25:13-74
+	android:theme
+		ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:26:13-83
+	android:name
+		ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:24:13-63
+service#com.bugtags.library.BugtagsService
+ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:28:9-70
+	android:name
+		ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:28:18-67
+receiver#com.bugtags.library.BugtagsReceiver
+ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:30:9-34:20
+	android:name
+		ADDED from [com.bugtags.library:bugtags-lib:1.0.8] D:\near_source_code\android\trunks\master\app\build\intermediates\exploded-aar\com.bugtags.library\bugtags-lib\1.0.8\AndroidManifest.xml:30:19-69

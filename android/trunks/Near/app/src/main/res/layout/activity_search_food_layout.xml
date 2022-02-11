@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/food_list_bg_color"
+    android:orientation="vertical"
+    >
+
+    <com.brotherhood.o2o.ui.widget.nearby.SearchFoodEditView
+        android:id="@+id/searchFoodHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ViewStub
+        android:id="@+id/vsSearchResultEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/search_food_result_empty_view"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <com.brotherhood.o2o.lib.multiStateView.MultiStateView
+            android:id="@id/stateView"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:emptyView="@layout/empty_view"
+            app:errorView="@layout/error_view_dark"
+            app:loadingView="@layout/loading_view_dark"
+            app:viewState="content">
+            <in.srain.cube.views.ptr.PtrClassicFrameLayout
+                android:id="@id/flPtrClassic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <include layout="@layout/base_recycler_page"/>
+            </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+        </com.brotherhood.o2o.lib.multiStateView.MultiStateView>
+        <!--搜索记录-->
+        <com.brotherhood.o2o.ui.widget.nearby.SearchHistoryView
+            android:id="@+id/searchKeyHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

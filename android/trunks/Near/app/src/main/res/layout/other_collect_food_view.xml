@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+    >
+    <TextView
+        android:id="@+id/tvOtherDetailEat"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/other_user_detail_eat"
+        android:textSize="14sp"
+        android:textColor="@color/half_black"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/five_percent_black_color"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvOtherDetailEat"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        />
+</LinearLayout>

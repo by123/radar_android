@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="30dp"/>
+    <solid android:color="#e95e63"/>
+    <padding android:top="10dp"
+        android:bottom="10dp"/>
+</shape><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/drawable/shape_chat_voice_text_bg.xml -->

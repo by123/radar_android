@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/my_activities_bg"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/my_activities_bg"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rlUserSetPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/common_view_btn_bg"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:duplicateParentState="true"
+                android:text="@string/userinfofragment_avatar"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                />
+
+            <ImageView
+                android:id="@+id/ivUserSetArrowIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/arrow_right"
+                />
+
+            <ImageView
+                android:id="@+id/ivUserSetIcon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/ivUserSetArrowIcon"
+                android:duplicateParentState="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_msg_default"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/common_divide_color"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlUserSetName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/common_view_btn_bg"
+            android:clickable="true"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:duplicateParentState="true"
+                android:text="@string/userinfofragment_nickname"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                />
+
+            <ImageView
+                android:id="@+id/ivUserSetArrowName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/arrow_right"
+                />
+
+            <TextView
+                android:id="@+id/tvUserSetName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/ivUserSetArrowName"
+                android:alpha="0.5"
+                android:duplicateParentState="true"
+                android:scaleType="centerCrop"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/common_divide_color"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlUserSetSex"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/common_view_btn_bg"
+            android:clickable="true"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:duplicateParentState="true"
+                android:text="@string/userinfofragment_gender"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                />
+
+            <ImageView
+                android:id="@+id/ivUserSetArrowSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/arrow_right"
+                />
+
+            <TextView
+                android:id="@+id/tvUserSetSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/ivUserSetArrowSex"
+                android:alpha="0.5"
+                android:duplicateParentState="true"
+                android:scaleType="centerCrop"
+                android:text="女"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/common_divide_color"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlUserSetBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/common_view_btn_bg"
+            android:clickable="true"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:duplicateParentState="true"
+                android:text="@string/user_set_birthday"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                />
+
+            <ImageView
+                android:id="@+id/ivUserSetArrowDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/arrow_right"
+                />
+
+            <TextView
+                android:id="@+id/tvUserSetDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/ivUserSetArrowDate"
+                android:alpha="0.5"
+                android:duplicateParentState="true"
+                android:scaleType="centerCrop"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/my_activities_bg"
+            />
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/rlUserSetLocation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/common_view_btn_bg"
+            android:clickable="true"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:duplicateParentState="true"
+                android:text="@string/user_set_location"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                />
+
+            <ImageView
+                android:id="@+id/ivUserSetArrowLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/arrow_right"
+                />
+
+            <TextView
+                android:id="@+id/tvUserSetLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/ivUserSetArrowLocation"
+                android:alpha="0.5"
+                android:duplicateParentState="true"
+                android:scaleType="centerCrop"
+                android:text="深圳"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/common_divide_color"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlUserSetSignature"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/common_view_btn_bg"
+            android:clickable="true"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            >
+
+            <TextView
+                android:id="@+id/tvUserSetSignatureTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:duplicateParentState="true"
+                android:text="@string/user_set_signature"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                />
+
+            <ImageView
+                android:id="@+id/ivUserSetArrowSignature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/arrow_right"
+                />
+
+            <TextView
+                android:id="@+id/tvUserSetSignature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/ivUserSetArrowSignature"
+                android:layout_toRightOf="@id/tvUserSetSignatureTitle"
+                android:alpha="0.5"
+                android:duplicateParentState="true"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:maxLines="2"
+                android:scaleType="centerCrop"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:singleLine="true"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/my_activities_bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tvUserSetLogout"
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/warn_btn_bg"
+                android:gravity="center"
+                android:text="@string/userinfofragment_logout"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/my_activities_bg"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="province">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>重庆</item>
+        <item>安徽</item>
+        <item>福建</item>
+        <item>广东</item>
+        <item>广西</item>
+        <item>贵州</item>
+        <item>海南</item>
+        <item>甘肃</item>
+        <item>河北</item>
+        <item>黑龙江</item>
+        <item>河南</item>
+        <item>湖北</item>
+        <item>湖南</item>
+        <item>江苏</item>
+        <item>江西</item>
+        <item>吉林</item>
+        <item>辽宁</item>
+        <item>内蒙古</item>
+        <item>宁夏</item>
+        <item>青海</item>
+        <item>四川</item>
+        <item>山东</item>
+        <item>陕西</item>
+        <item>山西</item>
+        <item>台湾</item>
+        <item>新疆</item>
+        <item>西藏</item>
+        <item>云南</item>
+        <item>浙江</item>
+        <item>香港</item>
+        <item>澳门</item>
+    </string-array>
+    <string-array name="chongqing">
+
+
+    </string-array>
+    <string-array name="tianjing">
+        <item>和平区</item>
+        <item>河东区</item>
+        <item>河西区</item>
+        <item>南开区</item>
+        <item>河北区</item>
+        <item>红桥区</item>
+        <item>塘沽区</item>
+        <item>汉沽区</item>
+        <item>大港区</item>
+        <item>东丽区</item>
+        <item>西青区</item>
+        <item>津南区</item>
+        <item>北辰区</item>
+        <item>武清区</item>
+        <item>宝坻区</item>
+        <item>蓟县</item>
+        <item>宁河县</item>
+        <item>静海县</item>
+    </string-array>
+
+    <string-array name="shanghai">
+        <item>黄浦区</item>
+        <item>卢湾区</item>
+        <item>徐汇区</item>
+        <item>长宁区</item>
+        <item>静安区</item>
+        <item>普陀区</item>
+        <item>闸北区</item>
+        <item>虹口区</item>
+        <item>杨浦区</item>
+        <item>宝山区</item>
+        <item>闵行区</item>
+        <item>嘉定区</item>
+        <item>浦东新区</item>
+        <item>松江区</item>
+        <item>金山区</item>
+        <item>青浦区</item>
+        <item>南汇区</item>
+        <item>奉贤区</item>
+        <item>崇明县</item>
+    </string-array>
+
+    <string-array name="beijing">
+        <item>东城</item>
+        <item>西城</item>
+        <item>朝阳</item>
+        <item>丰台</item>
+        <item>石景山</item>
+        <item>海淀</item>
+        <item>门头沟</item>
+        <item>房山</item>
+        <item>大兴</item>
+        <item>昌平</item>
+        <item>顺义</item>
+        <item>通州</item>
+        <item>延庆县</item>
+        <item>怀柔区</item>
+        <item>密云县</item>
+        <item>平谷区</item>
+    </string-array>
+</resources>

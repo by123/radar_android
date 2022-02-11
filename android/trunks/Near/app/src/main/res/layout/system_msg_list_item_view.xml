@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical"
+    >
+
+    <com.brotherhood.o2o.ui.widget.SwLin
+        android:id="@+id/swLinLayout"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+        <LinearLayout
+            android:id="@+id/lyMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_view_btn_bg"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            >
+
+            <RelativeLayout
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_msg_system_message_normal"
+                    />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/ivRightTip"     
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/radar_round_red_point_bg"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvMsgTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="22dp"
+                    android:textColor="#80000000"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/tvMsgTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/tvMsgTime"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#cc000000"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tvMsgContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvMsgTitle"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textColor="#80000000"
+                    android:textSize="14sp"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMessageDelete"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="@string/message_delete"
+            android:textColor="@color/white"/>
+
+    </com.brotherhood.o2o.ui.widget.SwLin>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/message_divide"
+        />
+
+
+</LinearLayout>
+
+
+
+

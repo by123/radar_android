@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brotherhood.o2o"
+    android:versionCode="1"
+    android:versionName="0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.location_hardware" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- start of dgc_pass service permissions -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- end of dgc_pass service permissions -->
+
+
+    <!-- start of baidu_lbs service permissions -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- end of baidu_lbs service permissions -->
+
+
+    <!-- IM SDK必选权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 聊天库SDK必选权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- 通讯录权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        android:name="com.brotherhood.o2o.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="A8CPV115CZRH" />
+        <meta-data
+            android:name="InstallChannel"
+            android:value="osc" />
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="E6XBZ-SDJHD-SYJ4B-PVR5A-UJGVK-3FBPD" />
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="0t0oIayPSGfK7k3A9nxt4lEa" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55af9f78e0f55a5b90003a94" />
+
+        <activity
+            android:name="com.brotherhood.o2o.ui.activity.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.brotherhood.o2o.ui.activity.SplashLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.ui.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.brotherhood.o2o.ui.widget.webview.WebViewActivity" />
+        <activity
+            android:name="com.brotherhood.o2o.chat.ChaListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.ui.activity.PerfectUserInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.brotherhood.o2o.receiver.LoginReceiver" >
+            <intent-filter>
+                <action android:name="ACTION.ACCOUNT.USER_LOGIN" />
+                <action android:name="ACTION.ACCOUNT.USER_INFO_UPDATE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- start of account module -->
+
+        <activity
+            android:name="com.brotherhood.o2o.ui.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentTheme" />
+
+        <!-- end of account module -->
+
+
+        <!-- start of personal module -->
+        <activity
+            android:name="com.brotherhood.o2o.personal.controller.UserInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.personal.controller.SystemMsgActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.personal.controller.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.personal.controller.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <!-- end of personal module -->
+
+
+        <!-- start of surprise module -->
+        <activity
+            android:name="com.brotherhood.o2o.surprise.controller.MySurpriseActivity"
+            android:screenOrientation="portrait" />
+        <!-- end of surprise module -->
+
+
+        <!-- start of address module -->
+        <activity
+            android:name="com.brotherhood.o2o.location.controller.SetLocationActivity"
+            android:screenOrientation="portrait" />
+        <!-- end of address module -->
+
+
+        <!-- start of DLOG service -->
+        <service
+            android:name="com.skynet.android.report.DataReportService"
+            android:exported="true"
+            android:label="version:1"
+            android:process=":DRService" >
+            <action android:name="skynet.report.intent.action.LAUNCHER_REPORT_SERVICE" />
+        </service>
+        <!-- end of DLOG service -->
+
+
+        <!-- start of dgc_push_service -->
+        <service
+            android:name="com.idswz.plugin.service.PluginService"
+            android:exported="true"
+            android:label="version:4"
+            android:process=":pluginservice" >
+            <intent-filter>
+                <action android:name="com.idswz.plugin.service.PluginService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.idswz.plugin.broadcast.ConnectionChange" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.idswz.INIT" />
+            </intent-filter>
+        </receiver>
+        <!-- end of dgc_push_service -->
+
+
+        <!-- start of baidu_lbs service -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="0t0oIayPSGfK7k3A9nxt4lEa" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":bd_remote" />
+        <!-- end of baidu_lbs service -->
+
+
+        <!-- &lt;!&ndash; IM SDK注册组件 &ndash;&gt; -->
+        <service
+            android:name="com.skynet.library.message.MessageService"
+            android:exported="false" />
+
+        <receiver android:name="com.skynet.library.message.MessageReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.brotherhood.o2o.MNSF_ALARM_ACTION" />
+
+                <data
+                    android:host="sdk.im"
+                    android:scheme="skynet" />
+            </intent-filter>
+        </receiver>
+        <!-- end -->
+
+
+        <!-- 聊天库SDK注册组件 -->
+        <!-- 高德定位key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="4ca9f35a9dc100f8c98d0d223ea90cfb" />
+        <!-- end -->
+        <activity
+            android:name="com.brotherhood.o2o.chat.ui.ChatActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.brotherhood.o2o.chat.ui.ImgPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.chat.ui.VolatileMsgViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.chat.ui.LocationActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.brotherhood.o2o.chat.utils.ChatReceiver" >
+            <intent-filter>
+                <action android:name="com.brotherhood.o2o.im_callback" />
+            </intent-filter>
+        </receiver>
+
+        <!-- end -->
+
+        <activity
+            android:name="com.brotherhood.o2o.explore.controller.OrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.location.controller.AddDeliveryLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.location.controller.DeliverySuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.explore.controller.OrderSuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.ui.activity.UpdatePhoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brotherhood.o2o.personal.controller.SystemMsgDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bugtags.library.BugtagsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <service android:name="com.bugtags.library.BugtagsService" />
+
+        <receiver android:name="com.bugtags.library.BugtagsReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

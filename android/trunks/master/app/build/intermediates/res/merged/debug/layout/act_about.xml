@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            style="@style/CustomToolBar"
+            android:id="@+id/toolbar"
+            android:navigationIcon="@drawable/selector_arrow_left"
+            app:navigationIcon="@drawable/selector_arrow_left">
+
+            <TextView
+                style="@style/CustomToolbarTitleView"
+                android:text="@string/personalfragment_about" />
+        </android.support.v7.widget.Toolbar>
+
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_current_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="asdasd"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/divide" />
+
+            <LinearLayout
+                android:id="@+id/layout_agreement"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/selector_item_click"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1.0"
+                    android:alpha="0.8"
+                    android:text="@string/aboutfragment_agreement"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_me_more_normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="15dp"
+                android:background="@color/divide" />
+
+            <LinearLayout
+                android:id="@+id/layout_update"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/selector_item_click"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1.0"
+                    android:alpha="0.8"
+                    android:text="@string/aboutfragment_update"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txt_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="v1.0"
+                    android:textColor="@color/gray" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_me_more_normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="15dp"
+                android:background="@color/divide" />
+
+            <LinearLayout
+                android:id="@+id/layout_welcome"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/selector_item_click"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1.0"
+                    android:alpha="0.8"
+                    android:text="@string/aboutfragment_welcome"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_me_more_normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="15dp"
+                android:background="@color/divide" />
+
+            <LinearLayout
+                android:id="@+id/layout_call"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/selector_item_click"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1.0"
+                    android:alpha="0.8"
+                    android:text="@string/aboutfragment_call"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txt_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="8888 8878"
+                    android:textColor="@color/gray" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_me_more_normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="15dp"
+                android:background="@color/divide" />
+
+            <LinearLayout
+                android:id="@+id/layout_grade"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/selector_item_click"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1.0"
+                    android:alpha="0.8"
+                    android:text="@string/aboutfragment_grade"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_me_more_normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/divide" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        style="@style/CustomProgressBar"
+        android:layout_width="16dp"
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_height="16dp" />
+
+</FrameLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/act_about.xml -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/sel_cell_white_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="清空历史地址"
+        android:textColor="#7f7f7f"
+        android:textSize="16sp" />
+</FrameLayout><!-- From: file:/D:/near_source_code/android/trunks/master/app/src/main/res/layout/address_footer_history_address.xml -->

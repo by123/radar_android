@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="chat_content_date_style">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="chat_pp_button">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:background">@drawable/chat_btn_selector</item>
+    </style>
+
+    <style name="chat_round_button">
+        <item name="android:textColor">@drawable/chat_round_button_text</item>
+        <item name="android:background">@drawable/chat_round_button_bg</item>
+    </style>
+</resources>

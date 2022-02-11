@@ -1,0 +1,372 @@
+<resources>
+    <string name="app_name">Near</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="connect_network_fail">网络连接失败，请重试！</string>
+    <string name="connect_network_timeout">网络不稳定，连接服务器超时！</string>
+    <string name="httpclient_fail">网络请求失败！</string>
+    <string name="httpclient_success">网络请求成功！</string>
+    <string name="httpclient_data_null">数据为空！</string>
+    <string name="httpclient_unknow_fail">未知错误！</string>
+    <string name="httpclient_upload_success">上报成功！</string>
+    <string name="httpclient_upload_fail">上报失败！</string>
+    <string name="request_location_fail">获取定位信息失败！</string>
+
+    <string name="bottom_category">分类</string>
+    <string name="bottom_explore">发现</string>
+    <string name="bottom_personal">我</string>
+
+
+    <string name="explorefragment_pulltorefresh">下拉刷新 </string>
+    <string name="explorefragment_relesetorefresh">释放加载 </string>
+    <string name="explorefragment_finding">正在寻找附近的服务...</string>
+    <string name="explorefragment_update">已更新 </string>
+
+    <string name="close">关闭</string>
+    <string name="web_power_by">网页由 %1$s 提供</string>
+    <string name="web_lbr_permition">是否允许当前网页获取位置信息?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="personalfragment_order">我的订单</string>
+    <string name="personalfragment_coupon">优惠券</string>
+    <string name="personalfragment_address">管理地址</string>
+    <string name="personalfragment_system_msg">系统消息</string>
+    <string name="personalfragment_invite_friend">邀请好友</string>
+    <string name="personalfragment_advice">意见反馈</string>
+    <string name="personalfragment_about">关于我们</string>
+    <string name="service_agreement">服务协议</string>
+    <string name="slide_menu_myactivity">我的活动</string>
+    <string name="event_detail">活动详情</string>
+    <string name="slide_menu_mycollect">我的收藏</string>
+    <string name="personalfragment_userinfo">账户信息</string>
+
+
+    <string name="aboutfragment_agreement">服务协议</string>
+    <string name="aboutfragment_update">检查更新</string>
+    <string name="aboutfragment_welcome">欢迎页</string>
+    <string name="aboutfragment_call">联系客服</string>
+    <string name="aboutfragment_grade">给我评分</string>
+
+    <string name="advicefragment_hint">给我们一些建议，让我们做得更好...</string>
+    <string name="userinfofragment_phone">手机号</string>
+    <string name="userinfofragment_gender">性别</string>
+    <string name="userinfofragment_nickname">昵称</string>
+    <string name="userinfofragment_avatar">头像</string>
+    <string name="userinfofragment_logout">退出登录</string>
+    <string name="userinfofragment_logout_tips">确定要退出此账号吗？</string>
+
+    <string name="systemmsgfragment_nomsg_tips">暂时还没有消息哦</string>
+
+    <string name="addlocation_title_address">收货地址</string>
+    <string name="addlocation_btn_add">添加新地址</string>
+    <string name="addlocation_btn_save">保存</string>
+    <string name="addlicaiton_txt_tips"> %1$s后惊喜将失效，请赶紧完成流程</string>
+
+    <string name="login_txt_wechat">微信</string>
+    <string name="login_btn_wechat">微信登录</string>
+    <string name="login_txt_qq">QQ</string>
+    <string name="login_btn_qq">QQ登录</string>
+    <string name="login_btn_others"><u>暂不登录，随便逛逛</u></string>
+    <string name="login_txt_others">其他登录方式</string>
+
+
+    <string name="perferctuserinfo_title">完善资料</string>
+    <string name="perferctuserinfo_tips">亲，首次进入需要完善您的资料哦</string>
+    <string name="perferctuserinfo_edit_hint">请输入昵称</string>
+
+    <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
+
+    <string name="dialog_takephoto">拍照</string>
+    <string name="dialog_gallery">从相册中选取</string>
+
+
+    <string name="dialog_gender_title">请选择性别</string>
+
+    <string name="title_chatlist">消息列表</string>
+    <string name="product_activity_rmb">¥ %1$s"</string>
+    <string name="product_activity_quota_total">总共名额: %1$s名</string>
+    <string name="product_activity_quota_remain">剩余名额: %1$s名</string>
+    <string name="product_activity_goodname">商家名称: %1$s</string>
+    <string name="product_activity_order">我要预约（¥%1$s）</string>
+    <string name="product_activity_delivery">我要配送</string>
+    <string name="product_activity_get">我要领取</string>
+    <string name="product_activity_order_success">恭喜，预约成功</string>
+    <string name="product_activity_confirm">商家确认</string>
+    <string name="product_activity_order_finish">预约成功</string>
+    <string name="product_activity_order_codenotnull">消费码不能为空!</string>
+    <string name="product_activity_consume_success">消码成功</string>
+    <string name="product_activity_consume_fail">消码失败</string>
+    <string name="product_activity_introduce_title">活动介绍</string>
+
+
+    <string name="title_compelete_surprise">惊喜完成</string>
+    <string name="confirm_location_success">恭喜，已成功提交到系统，请耐心等待</string>
+    <string name="confirm_location_address">配送地址</string>
+    <string name="confirm_location_product">配送物品</string>
+
+    <string name="surprise_time">时间：%1$s</string>
+
+    <string name="conpon_reward_item_expiretime">有效期至：%1$s</string>
+    <string name="conpon_reward_item_exchange">兑换方式：%1$s</string>
+    <string name="conpon_reward_null">当前没有优惠券</string>
+    <string name="item_reward_null">当前没有实物</string>
+
+
+    <string name="server_error">服务器异常</string>
+    <string name="please_login">请登录</string>
+    <string name="no_login">未登录</string>
+    <string name="login_title_text">登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="register_success">注册成功</string>
+
+    <string name="updatephone_phone_null">手机号不能为空哦</string>
+    <string name="updatephone_verify_null">验证码不能为空哦</string>
+    <string name="updatephone_verify_success">发送验证码成功</string>
+    <string name="updatephone_verify_wait">%1$s秒后重新获取</string>
+    <string name="updatephone_get_verifycode">获取验证码</string>
+    <string name="updatephone_verifycode_error">验证码错误</string>
+    <string name="ordersuccess_used">惊喜已完成</string>
+    <string name="require_location_failed">无法获取地理位置</string>
+    <string name="login_btn_phone">手机登录</string>
+    <string name="login_verifycode_notnull">验证码不能为空</string>
+    <string name="title_activity_phone_login">PhoneLoginActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="login_phone_regular_error">手机号码格式不正确</string>
+    <string name="slide_menu_friend">好友</string>
+    <string name="slide_menu_visitor">访客</string>
+    <string name="radar_getting_address">正在获取地址...</string>
+    <!--<string name="radar_scan_result" formatted="false">在%s内发现%d人，%d活动</string>-->
+    <string name="radar_scan_result" formatted="false">在%s内发现%s人</string>
+    <string name="radar_people_count">%d人</string>
+    <string name="radar_event_count">%d活动</string>
+    <string name="radar_meter_text">%sm</string>
+    <string name="radar_killometer_text">%skm</string>
+    <string name="near_exit_msg">再点一次退出程序</string>
+    <string name="loading_error_text">加载失败</string>
+    <string name="retry_refresh">刷新试试</string>
+    <string name="not_any_data">没有任何数据</string>
+    <string name="loading_text">加载中...</string>
+    <string name="list_loading">正在加载中...</string>
+    <string name="list_load_nomore">没有更多了</string>
+    <string name="list_load_more">加载失败，点击加载更多</string>
+    <string name="radar_event_item_supplier">举办者:%s</string>
+    <string name="radar_event_item_place">活动地:%s</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="please_login_again">请重新登录</string>
+    <string name="login_tip">点击手机登录按钮，即表示你同意</string>
+    <string name="login_privacy_policy">用户服务协议</string>
+    <string name="login_input_phone_number">输入电话号码</string>
+    <string name="login_input_verifycode">输入验证码</string>
+    <string name="title_activity_set_person_info">SetPersonInfoActivity</string>
+    <string name="fill_user_info">完善资料</string>
+    <string name="person_finish">完成</string>
+    <string name="title_activity_choose_photo">ChoosePhotoActivity</string>
+    <string name="choose_photo">选择图片</string>
+    <string name="choose_btn_send">发送</string>
+    <string name="choose_photo_by_camera">拍摄照片</string>
+    <string name="choose_check_sdcard_mounted">请确认已经插入SD卡</string>
+    <string name="choose_not_check_any_image">没有选中的图片</string>
+    <string name="person_upload_real_headphoto">请上传真人头像</string>
+    <string name="person_nickname_formaterror">昵称不能超过十个字符</string>
+    <string name="person_nickname_isempty">昵称不能为空</string>
+    <string name="person_sex_isempty">请填写性别</string>
+    <string name="person_headfile_notexist">头像文件不存在</string>
+    <string name="choose_photo_notfound">未找到图片，请重新选择</string>
+    <string name="user_detail_live_place">常居地</string>
+    <string name="user_detail_star_seat">星座</string>
+    <string name="user_detail_nearest_visitor">最近来访</string>
+    <string name="other_user_detail_eat">想吃(%d)</string>
+    <string name="user_detail_visitor_count">%d人访问了你</string>
+    <string name="user_detail_likes_count">%d人赞了你</string>
+    <string name="user_detail_no_visitor">您还没有来访哦，去打个招呼吧~</string>
+    <string name="other_user_no_collection">TA还没添加任何喜欢哦~</string>
+    <string name="user_detail_title">详细资料</string>
+    <string name="user_set_title">编辑资料</string>
+    <string name="user_set_birthday">出生日期</string>
+    <string name="user_set_location">地区</string>
+    <string name="user_set_signature">个性签名</string>
+    <string name="modify_text_not_null">填写内容不能为空</string>
+    <string name="person_upload_real_photo">请上传真实头像</string>
+    <string name="delete_friend">删除好友</string>
+    <string name="other_detail_report">举报</string>
+    <string name="other_detail_like">点赞(%d)</string>
+    <string name="other_detail_like_zero">点赞</string>
+    <string name="other_detail_chat">聊天</string>
+    <string name="other_detail_addfriend">加好友</string>
+    <string name="report_title">用户举报</string>
+    <string name="report_success">举报成功</string>
+    <string name="report_failed">举报失败</string>
+
+    <string name="report_reason_sexy">色情骚扰</string>
+    <string name="report_reason_ad">广告骚扰</string>
+    <string name="report_reason_abuse">诽谤辱骂</string>
+    <string name="report_reason_politically_sensitive">政治敏感</string>
+    <string name="report_reason_cheat">欺诈(酒托、话费托等骗钱行为)</string>
+    <string name="report_reason_illegal">违法行为(涉毒、暴恐、违禁品等)</string>
+
+
+    <string-array name="constellation">
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>魔羯座</item>
+    </string-array>
+    <!--PickerView  start-->
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="other_detail_location_title">地区</string>
+    <string name="report_title_text">请告诉我们举报该用户的理由</string>
+    <string name="report_reason_is_empty">必须选择举报理由</string>
+    <string name="like_success">点赞成功</string>
+    <string name="like_failed">点赞失败</string>
+    <!--PickerView end-->
+
+    <string name="my_message">我的消息</string>
+    <string name="my_friend">我的好友</string>
+    <string name="new_friend">新的好友</string>
+    <string name="my_group_chat">我的群聊</string>
+    <string name="message">消息</string>
+    <string name="message_delete">删除</string>
+    <string name="my_friends_count">%d位好友</string>
+    <string name="search">搜索</string>
+    <string name="put_friend_name_hint">请输入好友昵称</string>
+    <string name="is_friend">已是好友</string>
+    <string name="frien_validate">好友验证</string>
+    <string name="send">发送</string>
+    <string name="group_chat_info">聊天信息(%d)</string>
+    <string name="add_friend_send_msg_hine">你们还不是朋友,打声招呼吧</string>
+    <string name="add_friend_send_msg_temp">HI,我是%s,很高兴能够认识你!</string>
+    <string name="other_detail_has_liked">你已经赞过了</string>
+
+    <!-- chat -->
+
+    <string name="tips_move_up_to_cancel_voice">手指上滑，取消发送</string>
+    <string name="tips_untouch_to_cancel_voice">手指松开，取消发送</string>
+    <string name="tips_press_to_speak">按住说话</string>
+    <string name="tips_untouch_to_cancel">松开取消</string>
+    <string name="tips_untouch_to_finish">松开结束</string>
+    <string name="tips_recorded_voice_too_short">录制时间太短</string>
+    <string name="chat_feature_image">图片</string>
+    <string name="chat_feature_camera_photo">拍照</string>
+    <string name="chat_upload_media_io_error">网络错误，请重试</string>
+    <string name="chat_upload_media_internal_error">服务器错误，请重试</string>
+    <string name="chat_img_not_found_or_ot">图片被删除或者过期</string>
+    <string name="chat_can_not_show_img">图片无法显示</string>
+    <string name="chat_download_img_io">无法下载图片，请检查网络</string>
+    <string name="chat_download_img_data_error">无法下载图片，请稍候重试</string>
+    <string name="time_unit_second">秒</string>
+    <string name="chat_exit">退出</string>
+    <string name="chat_record_audio_error_no_sdcard">录音失败，没检测到存储卡</string>
+    <string name="chat_record_audio_error_no_permission">录音失败，可能由于应用没有被授予录音权限</string>
+    <string name="chat_send">发送</string>
+
+    <string name="logout_tip_content">您的账号在其他设备登录，点击确定退出，请重新登陆</string>
+    <string name="chat_tip_accepted_friend_self" formatted="false">你已经通过%s的请求，现在可以开始聊天了</string>
+    <string name="chat_tip_accepted_friend_other" formatted="false">%s通过了你的请求，现在可以开始聊天了</string>
+    <string name="chat_tip_quit_group">您已退出该群</string>
+    <string name="chat_tip_change_group_name">您更改了群名%s</string>
+    <string name="add_friend_send_verify_suc">发送好友请求成功</string>
+    <string name="add_friend_send_verify_fail">发送好友请求失败</string>
+    <string name="put_add_friend_send_verify">请输入好友请求信息</string>
+    <string name="new_friends_btn_agree">同意</string>
+    <string name="new_friends_added">已添加</string>
+    <string name="system_msg">系统消息</string>
+    <string name="title_activity_google_map">GoogleMapActivity</string>
+    <string name="not_find_friend" formatted="false">找不到\"%s\"哦</string>
+    <string name="loading">加载中……</string>
+    <string name="token_expired">token过期,无法登陆IM</string>
+    <string name="chat_tip_we_are_already_friend">我们已经是好友了</string>
+    <!-- chat group-->
+    <string name="chat_tip_other_change_group_name" formatted="false">%s修改群名为%s</string>
+    <string name="chat_tip_somebody_quit_group" formatted="false">%s退出了群聊</string>
+    <string name="chat_tip_kickout_group_by_sb" formatted="false">您已被%s移除该群</string>
+    <string name="chat_tip_sb_kickout_sb" formatted="false">%s把%s移除该群</string>
+    <string name="chat_tip_invited_by_sb" formatted="false">您被%s邀请加入群聊</string>
+    <string name="chat_tip_invited_by_sb_and_others" formatted="false">您被%s邀请加入群聊，同时被邀请的还有%s</string>
+    <string name="chat_tip_sb_invite_sb" formatted="false">%s邀请了%s加入群聊</string>
+
+    <!-- group  -->
+    <string name="group_creat_time">创建时间</string>
+    <string name="group_delete_and_quit">删除并退出</string>
+    <string name="group_name">群聊名称</string>
+    <string name="show_group_user_name">显示群员昵称</string>
+    <string name="group_name_save">保存</string>
+    <string name="put_group_name">请输入群名称</string>
+    <string name="put_group_name_suc">修改成功</string>
+    <string name="chat_notify">您收到一条消息</string>
+    <string name="empty_group_chat">清空聊天记录</string>
+    <string name="group_delete_and_quit_suc">已成功退出群</string>
+    <string name="group_chat_empty_suc">已成功清空聊天记录</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="cancel_collect_success">已成功取消收藏</string>
+    <string name="no_collect">您还没有添加我的收藏哦</string>
+    <string name="latest_msg_image">[图片]</string>
+    <string name="latest_msg_voice">[语音]</string>
+    <string name="no_group">还木有群聊哦,去创建您的第一个群聊吧</string>
+    <string name="put_user_name_search">试试输入好友昵称搜索吧</string>
+    <string name="delete_friend_suc">删除好友成功</string>
+    <string name="add_friend_suc">添加好友成功</string>
+    <string name="logout_tip">您真的要退出吗？</string>
+    <string name="load_error_text">糟糕，加载失败了</string>
+    <string name="try_to_refresh">刷新试试</string>
+
+    <string name="app_crash">应用程序已崩溃...</string>
+    <string name="new_friend_empty">暂时未收到好友请求,完善资料,让更多人在雷达盘上发现你吧</string>
+    <string name="my_friend_empty">还没有一个好友，好孤单啊，去雷达盘添加您的第一个好友吧</string>
+    <string name="remove_group_chat">移除群聊</string>
+    <string name="load_error">糟糕，加载失败了</string>
+    <string name="load_nothing">没有任何内容</string>
+    <string name="request_verify_code">请先获得验证码</string>
+
+    <string name="change_environment">环境切换</string>
+    <string name="test_environment">测试环境</string>
+    <string name="dev_environment">开发环境</string>
+    <string name="finish_environment">正式环境</string>
+    <string name="report_success_second_line2">《Near平台使用规范》</string>
+    <string name="report_success_third_line">我们将会作出严肃处理，感谢您的举报</string>
+    <string name="report_success_second_line1">若该用户违反了</string>
+
+    //---------------------------新增String(待国际化)------------------------------------------
+    <string name="nickname_not_allow_emoji">昵称不允许包含表情</string>
+    <string name="about_me_not_allow_emoji">个性签名不允许包含表情</string>
+    <string name="group_name_not_allow_emoji">群名不允许包含表情</string>
+    <string name="friend_name_not_allow_emoji">好友昵称不允许包含表情</string>
+
+    <string name="report_success_first_line">举报已提交，我们会尽快处理</string>
+    <string name="phone_number_wrong">手机号码长度不正确</string>
+    <string name="select_photo">选择图片</string>
+    <string name="unknow_location_error">未知错误</string>
+    <string name="get_verify_code">请先获取验证码</string>
+
+    <string name="no_visitor">还没有好友来访哦</string>
+    <string name="phone_no_is_empty">手机号码不能为空</string>
+    <string name="phone_no_format_error">手机号码格式不正确</string>
+    <string name="email_is_empty">邮箱不能为空</string>
+    <string name="email_format_error">邮箱格式不正确</string>
+
+    <string name="not_support_gif_yet">暂时不支持gif图片...</string>
+    <string name="version">版本v</string>
+
+    <string name="reserve_a_table">Reserve a table</string>
+    <string name="oversea_food_detail_reviews">%s reviews</string>
+    <string name="oversea_food_detail_reserve">Reserve</string>
+
+</resources>
+
+

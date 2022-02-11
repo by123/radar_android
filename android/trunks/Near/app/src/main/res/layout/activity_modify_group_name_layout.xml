@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/common_divide_color"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:background="@color/my_activities_bg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+
+        >
+
+        <ImageView
+            android:id="@+id/ivEtEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:padding="10dp"
+            android:src="@mipmap/edit_text_clear"
+            />
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/etGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/ivEtEmpty"
+            android:background="@null"
+            android:maxLength="32"
+            android:paddingLeft="23dp"
+            android:paddingRight="23dp"
+            android:textColor="@color/eighty_percent_black"
+            android:textSize="17sp"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/my_activities_bg"/>
+</LinearLayout>

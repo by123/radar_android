@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="12dp"
+              android:id="@+id/llSearchKeyItem"
+              android:background="@drawable/search_food_item_bg"
+    >
+    <TextView
+        android:id="@+id/tvSearchKeyItem"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Tobin's Pizza"
+        android:textColor="@color/white"
+        android:alpha="0.8"
+        android:textSize="17sp"
+        android:gravity="center_vertical"
+        android:duplicateParentState="true"
+        />
+    <View
+        android:id="@+id/viSearchKeyDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/common_divide_color"
+        android:alpha="0.3"
+        />
+</LinearLayout>
